@@ -1,0 +1,1430 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diwali at Work: Free HR Celebration Toolkit | Vantage Circle</title>
+<meta name="description" content="Send a Diwali card to a colleague, then grab ready-to-send greeting emails, a five-day recognition plan, celebration ideas and gifting tips for teams anywhere.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Layout: warm beige page, maroon boxes. Hero keeps a rangoli, string lights, two kandils and a row of diyas.
+   Marigold torans separate the plays; plays 02-05 fold open like the Halloween page. Flat colors, no glows. */
+:root{
+  --bg:#fbf4e8;
+  --bg-alt:#f5e9d5;
+  --maroon:#6d1636;
+  --maroon-d:#561029;
+  --maroon-l:#86244a;
+  --ink:#3b0d22;
+  --body:#5e3a47;
+  --marigold:#f0a00c;
+  --saffron:#e2661b;
+  --rani:#c8235f;
+  --gold:#f4c54a;
+  --teal:#1f8f83;
+  --cream:#fff3dc;
+  --muted:#f1d4da;
+  --line:rgba(109,22,54,.16);
+  --line-d:rgba(244,197,74,.32);
+  --font-display:"Yatra One","Georgia",serif;
+  --font-body:"Lexend","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --step--1:.875rem;--step-0:1rem;--step-1:1.15rem;--step-2:1.55rem;--step-3:clamp(2rem,4.4vw,3rem);--step-4:clamp(2.8rem,6.2vw,5.2rem);
+  --radius:20px;--wrap:1180px;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--body);font-family:var(--font-body);font-size:var(--step-0);line-height:1.6;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{line-height:1.12;text-wrap:balance;margin:0}
+p{margin:0}
+.wrap{max-width:var(--wrap);margin-inline:auto;padding-inline:20px}
+:focus-visible{outline:3px solid var(--marigold);outline-offset:3px;border-radius:6px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.print-only{display:none}
+
+/* ---------- header ---------- */
+.ad-header{position:sticky;top:0;z-index:40;background:#fff;border-bottom:3px solid var(--marigold)}
+.ad-header-inner{max-width:var(--wrap);margin-inline:auto;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.ad-logo img{width:190px;height:auto}
+.ad-nav{display:flex;align-items:center;gap:26px}
+.ad-nav-links{display:flex;gap:22px;list-style:none;margin:0;padding:0;font-size:var(--step--1);font-weight:500}
+.ad-nav-links a{text-decoration:none;color:var(--ink)}
+.ad-nav-links a:hover{color:var(--rani)}
+.ad-cta{background:var(--maroon);color:#fff;text-decoration:none;font-weight:600;font-size:var(--step--1);padding:10px 18px;border-radius:999px;white-space:nowrap}
+.ad-cta:hover{background:var(--maroon-l)}
+.ad-burger{display:none;background:none;border:0;padding:8px;cursor:pointer;color:var(--ink)}
+.ad-mobile-menu{display:none}
+@media (max-width:900px){
+  .ad-nav{display:none}
+  .ad-burger{display:block}
+  .ad-mobile-menu.open{display:flex;flex-direction:column;gap:4px;padding:8px 20px 16px;background:#fff}
+  .ad-mobile-menu a{color:var(--ink);text-decoration:none;padding:10px 0;font-weight:500;border-bottom:1px solid var(--line)}
+  .ad-mobile-menu .ad-cta{margin-top:10px;text-align:center;border:0;color:#fff}
+  .ad-logo img{width:150px}
+}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;gap:10px;font:600 var(--step-0)/1 var(--font-body);padding:15px 24px;border-radius:999px;border:2px solid transparent;cursor:pointer;text-decoration:none;transition:background .2s,color .2s}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-primary{background:var(--maroon);color:#fff}
+.btn-primary:hover{background:var(--maroon-l)}
+.btn-ghost{border-color:var(--maroon);color:var(--maroon);background:transparent}
+.btn-ghost:hover{background:var(--maroon);color:#fff}
+.btn-gold{background:var(--marigold);color:var(--ink)}
+.btn-gold:hover{background:var(--gold)}
+.btn-small{padding:10px 16px;font-size:var(--step--1)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;min-height:720px;background:var(--bg)}
+.fireworks{position:absolute;inset:0;width:100%;height:560px;pointer-events:none;z-index:0}
+.burst{transform-box:fill-box;transform-origin:center;animation:burst 4.4s ease-out infinite;opacity:0}
+@keyframes burst{0%{transform:scale(.05);opacity:0}8%{opacity:1}55%{transform:scale(1);opacity:.9}100%{transform:scale(1.1);opacity:0}}
+@media (prefers-reduced-motion:reduce){.burst{opacity:.7}}
+.lights{position:absolute;top:0;left:0;width:100%;height:120px;pointer-events:none;z-index:2}
+.bulb{animation:bulb 2.4s ease-in-out infinite}
+@keyframes bulb{50%{opacity:.45}}
+.kandil{position:absolute;top:0;z-index:2;transform-origin:50% 0;animation:sway 5s ease-in-out infinite alternate;pointer-events:none}
+.kandil svg{width:100%;height:auto;overflow:visible}
+@keyframes sway{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
+.k1{left:4%;width:70px;animation-duration:5.5s}
+.k3{right:4%;width:80px;animation-duration:6.2s;animation-delay:-1s}
+.hero-rangoli{position:absolute;z-index:1;right:max(10px,calc(50% - 600px));top:150px;width:min(42vw,500px);aspect-ratio:1;pointer-events:none}
+.hero-rangoli .spin{animation:spin 200s linear infinite;transform-origin:center;transform-box:fill-box}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hero-grid{position:relative;z-index:3;padding-block:150px 180px;display:grid;grid-template-columns:minmax(0,600px)}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:var(--step--1);letter-spacing:.16em;text-transform:uppercase;color:var(--saffron);font-weight:600}
+.eyebrow::before,.eyebrow::after{content:"";width:22px;height:2px;background:currentColor}
+.hero h1{font-family:var(--font-display);font-weight:400;font-size:var(--step-4);margin-block:0 22px;color:var(--maroon)}
+.hero h1 span{display:block;color:var(--saffron)}
+.hero-lede{max-width:32rem;color:var(--body);font-size:var(--step-1)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 0;list-style:none;padding:0}
+.hero-meta li{font-size:var(--step--1);padding:6px 14px;border-radius:999px;border:1px solid var(--line);color:var(--maroon);background:#fff}
+.diya-row{position:absolute;z-index:3;left:0;right:0;bottom:0;height:140px;display:flex;justify-content:center;align-items:flex-end;gap:clamp(6px,2.4vw,34px);padding-bottom:30px}
+.diya-row::before{content:"";position:absolute;left:0;right:0;bottom:0;height:38px;background:var(--maroon);border-top:4px solid var(--marigold)}
+.diya-row .diya{position:relative;width:clamp(44px,6vw,80px)}
+.diya-row .diya:nth-child(odd){width:clamp(38px,5vw,64px)}
+@media (max-width:820px){
+  .hero{min-height:0}
+  .hero-rangoli{width:110vw;right:-55vw;top:110px;opacity:.25}
+  .hero-grid{padding-block:140px 180px}
+  .k1{width:52px}.k3{width:58px}
+}
+
+/* ---------- diya ---------- */
+.diya{display:block;overflow:visible}
+.flame-g{transform-box:fill-box;transform-origin:50% 100%;animation:flicker 1.6s ease-in-out infinite}
+@keyframes flicker{0%,100%{transform:scale(1,1) rotate(0)}25%{transform:scale(.94,1.06) rotate(-2deg)}50%{transform:scale(1.03,.95) rotate(1.5deg)}75%{transform:scale(.97,1.04) rotate(-1deg)}}
+.diya .glow{opacity:.35}
+.diya .flame-g{transition:opacity .5s}
+.diya.unlit .flame-g,.diya.unlit .glow{opacity:0}
+
+/* ---------- toran divider ---------- */
+.toran{display:block;width:100%;height:96px;position:relative;z-index:4;margin-bottom:-60px;pointer-events:none}
+
+/* ---------- intro bar ---------- */
+.intro-bar{position:relative;background:var(--maroon);color:var(--cream)}
+.intro-bar .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center;justify-content:space-between;padding-block:22px}
+.intro-bar p{font-size:var(--step-1);color:var(--muted)}
+.intro-bar strong{color:var(--cream);font-weight:600}
+.jump{display:flex;flex-wrap:wrap;gap:8px}
+.jump a{font-size:var(--step--1);text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid var(--line-d);color:var(--gold)}
+.jump a:hover{background:var(--maroon-l)}
+
+/* ---------- sections ---------- */
+section.play{position:relative;padding-block:130px 100px;overflow:hidden;background:var(--bg)}
+section.play:nth-of-type(even){background:var(--bg-alt)}
+.corner-rangoli{position:absolute;width:420px;aspect-ratio:1;opacity:.2;pointer-events:none}
+.corner-rangoli.tr{top:-140px;right:-140px}
+.corner-rangoli.bl{bottom:-160px;left:-160px}
+.corner-rangoli svg{animation:spin 200s linear infinite}
+.section-head{position:relative;display:grid;grid-template-columns:auto 1fr;gap:4px 22px;align-items:end;margin-bottom:22px}
+.play-no{grid-row:span 2;font-family:var(--font-display);font-size:clamp(4rem,10vw,6.4rem);line-height:.85;color:transparent;-webkit-text-stroke:2px var(--saffron)}
+.kicker{font-size:var(--step--1);letter-spacing:.16em;text-transform:uppercase;color:var(--rani);font-weight:600}
+.section-head h2{font-family:var(--font-display);font-weight:400;font-size:var(--step-3);color:var(--maroon)}
+.section-intro{position:relative;max-width:46rem;color:var(--body);font-size:var(--step-1);margin-bottom:34px}
+
+/* tips (collapsible) */
+.tips{position:relative;border:1.5px dashed rgba(109,22,54,.35);border-radius:var(--radius);margin-bottom:40px;background:#fff}
+.tips>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:12px;padding:15px 22px;font-size:var(--step--1);letter-spacing:.14em;text-transform:uppercase;color:var(--maroon);font-weight:600}
+.tips>summary::-webkit-details-marker{display:none}
+.tips>summary>svg:first-child{width:22px;height:22px;flex:none;color:var(--saffron)}
+.tips-count{margin-left:auto;letter-spacing:0;text-transform:none;font-weight:400;color:var(--body);font-size:.85rem}
+.tips summary .chev{width:18px;height:18px;transition:transform .25s}
+.tips[open] summary .chev{transform:rotate(180deg)}
+.tips ul{margin:0;padding:0 22px 20px;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px 26px}
+.tips li{position:relative;padding-left:22px;font-size:.95rem}
+.tips li::before{content:"";position:absolute;left:0;top:.5em;width:10px;height:10px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--marigold)}
+.tips li strong{color:var(--ink);font-weight:600}
+
+/* ---------- folds (like Halloween) ---------- */
+.fold>summary{list-style:none;cursor:pointer;grid-template-columns:auto 1fr auto;padding:22px 26px;border-radius:24px;background:var(--maroon);margin-bottom:0;transition:background .2s}
+.fold>summary::-webkit-details-marker{display:none}
+.fold:not([open])>summary:hover{background:var(--maroon-l)}
+.fold:not([open])>summary .play-no{-webkit-text-stroke-color:var(--gold)}
+.fold:not([open])>summary .kicker{color:var(--gold)}
+.fold:not([open])>summary h2{color:var(--cream)}
+.fold:not([open])>summary .fold-meta{color:var(--muted)}
+.fold>summary .play-no{grid-row:1/4}
+.fold>summary .kicker,.fold>summary h2,.fold-meta{grid-column:2}
+.fold-meta{color:var(--body);font-size:.95rem}
+.fold-toggle{grid-column:3;grid-row:1/4;align-self:center;display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:.9rem;color:var(--ink);background:var(--marigold);padding:10px 16px 10px 20px;border-radius:999px}
+.fold-toggle svg{width:18px;height:18px;transition:transform .25s}
+.fold[open] .fold-toggle svg{transform:rotate(180deg)}
+.fold[open] .fold-toggle{background:var(--maroon);color:#fff}
+.fold[open] .when-closed,.fold:not([open]) .when-open{display:none}
+.fold[open]>summary{margin-bottom:30px;background:none;padding-inline:0}
+section.play:has(details.fold:not([open])){padding-block:14px}
+section#emails:has(details.fold:not([open])){padding-top:110px}
+section.play:not(#emails):has(details.fold:not([open])) .toran{display:none}
+section.play:has(details.fold:not([open])) .corner-rangoli{display:none}
+section.play:has(details.fold:not([open])):last-of-type{padding-bottom:80px}
+section.play:has(details.fold:not([open])){background:var(--bg)}
+@media (max-width:640px){.fold>summary{padding:18px}.fold-toggle{padding:10px}.fold-toggle>span{display:none}.fold-meta{font-size:.85rem}}
+.expand-all{font:inherit;font-size:var(--step--1);font-weight:600;cursor:pointer;padding:7px 16px;border-radius:999px;border:0;background:var(--marigold);color:var(--ink)}
+
+/* ---------- badges ---------- */
+.badge-grid{position:relative;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.badge-card{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;padding:26px 20px 22px;border-radius:22px;background:var(--maroon);color:var(--cream);transition:transform .2s,background .2s}
+.badge-card:hover{transform:translateY(-4px);background:var(--maroon-l)}
+.badge-img{width:160px;aspect-ratio:1;margin-bottom:14px}
+.badge-img img{width:100%;height:100%;object-fit:contain}
+.badge-card h3{font-family:var(--font-display);font-weight:400;font-size:1.45rem;color:var(--gold)}
+.badge-mean{font-style:italic;color:var(--marigold);font-size:.92rem;margin-top:2px;min-height:1.4em}
+.badge-for{color:var(--muted);font-size:.92rem;margin:10px 0 18px;flex:1}
+.badge-actions{display:flex;gap:8px;align-items:center}
+.badge-actions .btn-primary{background:var(--marigold);color:var(--ink)}
+.badge-actions .btn-primary:hover{background:var(--gold)}
+.icon-btn{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:50%;border:1px solid var(--line-d);color:var(--gold);background:transparent;cursor:pointer}
+.icon-btn:hover{background:var(--maroon-d)}
+.icon-btn svg{width:18px;height:18px}
+.zip-row{position:relative;display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:center;margin-top:30px;font-size:.95rem}
+.zip-row a{color:var(--rani);font-weight:600}
+
+/* ---------- card dialog ---------- */
+dialog.card-modal{width:min(1040px,calc(100vw - 24px));max-height:calc(100dvh - 24px);padding:0;border:0;border-radius:24px;background:var(--maroon);color:var(--cream);overflow:auto}
+dialog.card-modal::backdrop{background:rgba(40,8,22,.6)}
+.modal-grid{display:grid;grid-template-columns:1fr 1fr}
+.modal-close{position:absolute;top:14px;right:14px;z-index:5;width:42px;height:42px;border-radius:50%;border:1px solid var(--line-d);background:var(--maroon-d);color:var(--cream);cursor:pointer;font-size:1.4rem;line-height:1}
+.preview-side{position:relative;padding:34px;background:var(--bg-alt);display:grid;place-items:center;overflow:hidden}
+.preview-side .bg-rangoli{position:absolute;width:140%;aspect-ratio:1;opacity:.18;left:-20%;top:-20%}
+.preview-side .bg-rangoli svg{animation:spin 160s linear infinite}
+.e-card{position:relative;width:100%;max-width:400px;background:#fff;color:var(--ink);border-radius:16px;padding:30px 26px 24px;text-align:center;border:1px solid var(--line)}
+.e-card::before{content:"";position:absolute;inset:8px;border:2px solid var(--marigold);border-radius:10px;pointer-events:none}
+.e-card::after{content:"";position:absolute;inset:13px;border:1px dashed var(--rani);border-radius:7px;opacity:.45;pointer-events:none}
+.e-card .card-corner{position:absolute;width:56px;height:56px}
+.e-card .card-corner.a{top:-14px;left:-14px}
+.e-card .card-corner.b{bottom:-14px;right:-14px}
+.e-card img{width:150px;margin:0 auto 10px}
+.e-card .to{font-family:var(--font-display);font-size:1.5rem;color:var(--rani)}
+.e-card .msg{margin:10px 0 14px;font-size:.98rem;line-height:1.55;white-space:pre-wrap;word-wrap:break-word;color:var(--body);min-height:3em}
+.e-card .from{font-size:.9rem;color:var(--body)}
+.e-card .from strong{color:var(--ink)}
+.e-card .hd{margin-top:12px;font-family:var(--font-display);color:var(--saffron);font-size:1.1rem}
+.form-side{padding:38px 34px 30px}
+.form-side h3{font-family:var(--font-display);font-weight:400;font-size:1.9rem;color:var(--gold)}
+.form-side .sub{color:var(--muted);font-size:.95rem;margin:6px 0 20px}
+.form-side .btn-primary{background:var(--marigold);color:var(--ink)}
+.field{display:flex;flex-direction:column;gap:6px;margin-bottom:14px}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.field label{font-size:.82rem;font-weight:500;color:var(--muted)}
+.field input,.field textarea{font:inherit;font-size:.95rem;color:var(--ink);background:#fff;border:1px solid transparent;border-radius:10px;padding:11px 13px}
+.field textarea{min-height:110px;resize:vertical}
+.field input:focus,.field textarea:focus{outline:none;border-color:var(--marigold);box-shadow:0 0 0 3px rgba(240,160,12,.35)}
+.field input[aria-invalid=true],.field textarea[aria-invalid=true]{border-color:#ff8fa8;box-shadow:0 0 0 2px #ff8fa8}
+.count{font-size:.78rem;color:var(--muted);text-align:right}
+.starters{display:flex;flex-direction:column;gap:8px;margin:-4px 0 16px}
+.starters span{font-size:.8rem;color:var(--muted)}
+.starter{font:inherit;font-size:.85rem;text-align:left;color:var(--cream);background:var(--maroon-d);border:1px solid var(--line-d);border-radius:10px;padding:9px 12px;cursor:pointer}
+.starter:hover{border-color:var(--marigold)}
+.fineprint{font-size:.78rem;color:var(--muted);margin:4px 0 16px}
+.fineprint a{color:var(--gold)}
+.form-error{color:#ffc2cf;font-size:.85rem;margin-bottom:10px;min-height:1.2em}
+.success{display:none;text-align:center;padding:10px 0}
+.card-modal.sent .the-form{display:none}
+.card-modal.sent .success{display:block}
+.success .diya-line{display:flex;justify-content:center;gap:10px;margin:8px 0 18px}
+.success .diya-line .diya{width:54px}
+.success h3{margin-bottom:8px}
+.success p{color:var(--muted);margin-bottom:22px}
+.success .btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.success .btn-ghost{border-color:var(--gold);color:var(--gold)}
+.spark{position:absolute;width:6px;height:6px;border-radius:50%;pointer-events:none;animation:spark 1.1s ease-out forwards}
+@keyframes spark{to{transform:translate(var(--dx),var(--dy)) scale(.2);opacity:0}}
+@media (max-width:820px){
+  .modal-grid{grid-template-columns:1fr}
+  .preview-side{padding:26px 18px}
+  .e-card img{width:110px}
+  .form-side{padding:26px 20px}
+  .field-row{grid-template-columns:1fr}
+}
+
+/* ---------- tabs & letters ---------- */
+.tabs{position:relative}
+.tablist{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
+.tab{font:inherit;font-size:.92rem;font-weight:500;color:var(--maroon);background:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 18px;cursor:pointer;display:inline-flex;align-items:center;gap:10px}
+.tab .n{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--bg-alt);color:var(--maroon);font-size:.8rem;font-weight:600}
+.tab[aria-selected=true]{background:var(--maroon);color:#fff;border-color:var(--maroon)}
+.tab[aria-selected=true] .n{background:var(--marigold);color:var(--ink)}
+.panel[hidden]{display:none}
+.letter{position:relative;background:#fff;color:var(--ink);border-radius:20px;padding:40px clamp(22px,5vw,56px) 34px;border:1px solid var(--line);overflow:hidden}
+.letter::before{content:"";position:absolute;left:0;right:0;top:0;height:8px;background:repeating-linear-gradient(90deg,var(--marigold) 0 22px,var(--rani) 22px 44px,var(--teal) 44px 66px)}
+.letter .letter-rangoli{position:absolute;right:-70px;bottom:-70px;width:240px;opacity:.12}
+.letter .for{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--rani);font-weight:600}
+.letter .subject{font-size:1.05rem;margin:8px 0 22px;padding-bottom:16px;border-bottom:1px dashed var(--line)}
+.letter .subject b{color:var(--maroon);font-weight:600}
+.letter .body{position:relative;max-width:42rem;display:grid;gap:14px;font-size:1rem;line-height:1.7}
+.letter .ph{background:#fde7b4;border-radius:4px;padding:0 4px}
+.letter-foot{position:relative;display:flex;justify-content:flex-end;margin-top:26px}
+.copy-btn{font:inherit;font-size:.88rem;font-weight:600;display:inline-flex;align-items:center;gap:8px;color:#fff;background:var(--maroon);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}
+.copy-btn:hover{background:var(--maroon-l)}
+.copy-btn svg{width:16px;height:16px}
+.copy-btn.done{background:var(--teal)}
+
+/* ---------- five days ---------- */
+.days{position:relative;display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-bottom:60px}
+.day{position:relative;padding:24px 18px 22px;border-radius:20px;background:var(--maroon);color:var(--muted)}
+.day:not(:last-child)::after{content:"";position:absolute;top:56px;right:-17px;width:18px;height:2px;background:repeating-linear-gradient(90deg,var(--saffron) 0 4px,transparent 4px 8px)}
+.day-ico{width:60px;height:60px;margin-bottom:14px}
+.day-ico svg{width:100%;height:100%;overflow:visible}
+.day .d{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--marigold);font-weight:600}
+.day h3{font-family:var(--font-display);font-weight:400;font-size:1.35rem;color:var(--cream);margin:4px 0 10px}
+.day p{font-size:.9rem}
+.day p + p{margin-top:10px;color:var(--cream)}
+.day p b{color:var(--gold);font-weight:600}
+@media (max-width:1000px){.days{grid-template-columns:repeat(2,1fr)}.day::after{display:none}.day:last-child{grid-column:1/-1}}
+@media (max-width:560px){.days{grid-template-columns:1fr}}
+.sub-head{position:relative;font-family:var(--font-display);font-weight:400;font-size:var(--step-2);color:var(--maroon);margin-bottom:6px}
+.sub-intro{position:relative;margin-bottom:20px}
+.shout{position:relative;background:#fff;color:var(--ink);border-radius:18px;padding:30px clamp(20px,4vw,40px) 26px;border:1px solid var(--line);border-left:6px solid var(--rani)}
+.shout .q{font-family:var(--font-display);font-size:4rem;line-height:.5;color:var(--marigold);height:26px}
+.shout p{font-size:1.08rem;line-height:1.7;max-width:46rem}
+
+/* ---------- celebrate ---------- */
+.two-col{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:56px}
+.col{border-radius:22px;padding:28px 26px;background:var(--maroon);color:var(--muted)}
+.col-head{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+.col-head svg{width:46px;height:46px;flex:none}
+.col-head h3{font-family:var(--font-display);font-weight:400;font-size:1.6rem;color:var(--gold)}
+.idea{display:grid;grid-template-columns:30px 1fr;gap:12px;padding:14px 0;border-top:1px dashed var(--line-d)}
+.idea:first-of-type{border-top:0}
+.idea .mg{width:26px;height:26px;margin-top:2px}
+.idea h4{margin:0 0 4px;font-size:1rem;font-weight:600;color:var(--cream)}
+.idea p{font-size:.92rem}
+@media (max-width:820px){.two-col{grid-template-columns:1fr}}
+.contest{position:relative;display:grid;grid-template-columns:1fr 1.25fr;gap:30px;align-items:start}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;gap:16px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;font-family:var(--font-display);font-size:1.3rem;color:var(--cream);background:var(--maroon)}
+.steps li strong{display:block;color:var(--ink);font-weight:600}
+.awards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media (max-width:560px){.awards{grid-template-columns:1fr 1fr}}
+.award{position:relative;padding:22px 14px 20px;border-radius:20px;text-align:center;background:var(--maroon);color:var(--muted);transition:transform .2s}
+.award:hover{transform:translateY(-3px)}
+.a-ico{width:58px;height:58px;margin:0 auto 12px}
+.a-ico svg{width:100%;height:100%;overflow:visible}
+.award h4{margin:0;font-family:var(--font-display);font-weight:400;font-size:1.12rem;color:var(--gold)}
+.award p{font-size:.84rem;margin-top:4px}
+@media (max-width:820px){.contest{grid-template-columns:1fr}}
+
+/* ---------- gifts ---------- */
+.gift-groups{position:relative;display:grid;grid-template-columns:3fr 5fr;gap:22px}
+.gift-group{border-radius:22px;padding:22px 20px 24px;background:var(--maroon);color:var(--muted)}
+.gg-head{display:flex;align-items:center;gap:12px;font-family:var(--font-display);font-weight:400;font-size:1.3rem;color:var(--gold);margin-bottom:18px}
+.gg-head::after{content:"";flex:1;height:1px;background:repeating-linear-gradient(90deg,var(--marigold) 0 4px,transparent 4px 9px);opacity:.6}
+.gift-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.gift-row.five{grid-template-columns:repeat(5,1fr)}
+.gift{text-align:left}
+.g-photo{aspect-ratio:4/3;border-radius:12px;overflow:hidden;margin-bottom:10px;background:var(--maroon-d)}
+.g-photo img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.gift:hover .g-photo img{transform:scale(1.05)}
+.gift h4{margin:0 0 2px;font-size:.98rem;font-weight:600;color:var(--cream)}
+.gift p{font-size:.84rem;line-height:1.45}
+.mix{position:relative;margin-top:22px;display:flex;align-items:center;gap:34px;padding:24px 32px;border-radius:22px;background:#fff;border:1.5px dashed rgba(109,22,54,.35)}
+.mix-art{display:flex;align-items:center;flex:none}
+.mix-art img{width:80px;height:80px;margin-left:-20px}
+.mix-art img:first-child{margin-left:0}
+.mix-art .plus{font-family:var(--font-display);font-size:2rem;color:var(--saffron);margin:0 12px}
+.mix-gift{width:110px;aspect-ratio:4/3;border-radius:12px;overflow:hidden}
+.mix-gift img{width:100%;height:100%;object-fit:cover}
+.mix .tag{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--rani)}
+.mix h3{font-family:var(--font-display);font-weight:400;font-size:1.6rem;margin:2px 0 4px;color:var(--maroon)}
+@media (max-width:1000px){.gift-groups{grid-template-columns:1fr}.gift-row.five{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:640px){.gift-row,.gift-row.five{grid-template-columns:1fr 1fr}.mix{flex-direction:column;text-align:center;padding:24px 20px}}
+
+/* ---------- global band ---------- */
+.global{position:relative;background:var(--bg-alt);padding-block:90px;overflow:hidden}
+.global .wrap{position:relative}
+.global h2{font-family:var(--font-display);font-weight:400;font-size:var(--step-3);color:var(--maroon);text-align:center;margin-bottom:10px}
+.global .section-intro{text-align:center;margin-inline:auto}
+.global-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.g-item{padding:24px 20px;border-radius:20px;background:var(--maroon);color:var(--muted)}
+.g-item .num{font-family:var(--font-display);font-size:2.2rem;line-height:1;color:var(--marigold)}
+.g-item h3{font-size:1.02rem;font-weight:600;margin:8px 0 6px;color:var(--cream)}
+.g-item p{font-size:.9rem}
+@media (max-width:1000px){.global-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.global-grid{grid-template-columns:1fr}}
+
+/* ---------- closing ---------- */
+.closing{position:relative;text-align:center;padding-block:120px 0;overflow:hidden;background:var(--maroon);color:var(--cream)}
+.closing .wrap{position:relative}
+.closing h2{font-family:var(--font-display);font-weight:400;font-size:clamp(2.4rem,5.4vw,4.2rem);margin-bottom:16px}
+.closing h2 span{color:var(--marigold)}
+.closing p{color:var(--muted);font-size:var(--step-1);max-width:36rem;margin-inline:auto}
+.closing .hero-actions{justify-content:center}
+.closing .btn-primary{background:var(--marigold);color:var(--ink)}
+.closing .btn-ghost{border-color:var(--gold);color:var(--gold)}
+.closing .btn-ghost:hover{background:var(--maroon-l)}
+.closing .diya-row{position:relative;height:160px;margin-top:60px}
+.closing .diya-row::before{background:var(--maroon-d)}
+
+/* ---------- footer ---------- */
+.ad-footer{background:#3a0a1c;color:var(--muted);font-size:.88rem}
+.ad-footer-top{max-width:var(--wrap);margin-inline:auto;padding:34px 20px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between}
+.ad-stores{display:flex;gap:12px;flex-wrap:wrap}
+.ad-store{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--cream);border:1px solid rgba(255,255,255,.2);border-radius:12px;padding:8px 16px}
+.ad-store small{display:block;font-size:.65rem;letter-spacing:.08em;opacity:.7}
+.ad-store strong{font-size:.95rem}
+.ad-store svg{width:22px;height:22px}
+.ad-social{display:flex;gap:10px;margin-top:16px}
+.ad-social a{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.08);text-decoration:none;font-weight:700;font-size:.8rem}
+.ad-social a:hover{background:var(--rani);color:#fff}
+.ad-certs{display:flex;gap:18px;align-items:center;background:#fff;border-radius:10px;padding:8px 14px}
+.ad-footer-bottom{border-top:1px solid rgba(255,255,255,.08)}
+.ad-footer-bottom-inner{max-width:var(--wrap);margin-inline:auto;padding:18px 20px;display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between}
+.ad-legal{display:flex;flex-wrap:wrap;gap:6px 16px}
+.ad-legal a,.ad-copy a{text-decoration:none}
+.ad-legal a:hover{color:var(--gold)}
+
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,220%);visibility:hidden;background:var(--maroon);color:var(--cream);font-weight:600;padding:12px 20px;border-radius:999px;transition:transform .3s;z-index:100}
+.toast.show{transform:translate(-50%,0);visibility:visible}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+
+/* ---------- print / PDF ---------- */
+@media print{
+  @page{size:A4;margin:14mm 14mm 16mm}
+  :root{--cream:#2a1236;--muted:#5a4466;--gold:#b5481c;--marigold:#c4581a;--line:rgba(120,60,40,.3)}
+  body{background:#fff;color:#2a1236;font-size:10.5pt}
+.fold-toggle,.tips-count,.tips summary .chev{display:none!important}
+  .fold>summary{padding:0!important;border:0!important;background:none!important;box-shadow:none!important;margin-bottom:4mm!important}
+  .fold-meta{display:none}
+  .ad-header,.hero,.intro-bar,.toran,.corner-rangoli,.closing,.ad-footer,.toast,dialog,.tablist,.copy-btn,.badge-actions,.zip-row,.letter-rangoli,.no-print{display:none!important}
+  .print-only{display:block}
+  .print-cover{height:255mm;display:flex!important;flex-direction:column;justify-content:center;align-items:center;text-align:center;page-break-after:always;background:radial-gradient(circle at 50% 40%,#fff3dc,#ffe2b8);border-radius:8mm;padding:20mm;position:relative;overflow:hidden}
+  .print-cover .pc-rangoli{position:absolute;width:150mm;top:-40mm;right:-45mm;opacity:.28}
+  .print-cover .pc-rangoli.b{top:auto;right:auto;bottom:-50mm;left:-50mm}
+  .print-cover img.logo{width:52mm;margin-bottom:18mm;position:relative}
+  .print-cover .eyebrow{color:#c4581a}
+  .print-cover h1{font-family:var(--font-display);font-weight:400;font-size:40pt;color:#2a1236;margin:8mm 0 6mm;position:relative}
+  .print-cover h1 span{color:#e0306f;display:block}
+  .print-cover p{max-width:130mm;font-size:12pt;color:#5a4466;position:relative}
+  .print-cover .pc-diyas{display:flex;gap:6mm;margin-top:16mm;position:relative}
+  .print-cover .pc-diyas .diya{width:18mm}
+  .print-cover ol{list-style:none;padding:0;margin:14mm 0 0;display:grid;grid-template-columns:1fr 1fr;gap:3mm 14mm;text-align:left;font-size:11pt;color:#2a1236;position:relative}
+  .print-cover ol b{color:#e0306f;font-family:var(--font-display);font-weight:400;margin-right:3mm}
+  section.play{background:#fff!important;padding:0!important;page-break-before:always;overflow:visible}
+  section.play::before{display:none}
+  .section-head{margin-bottom:4mm}
+  .play-no{font-size:44pt;-webkit-text-stroke:1.5px #c4581a;text-shadow:none}
+  .section-head h2{font-size:24pt}
+  .section-intro{font-size:11pt;margin-bottom:6mm}
+  .tips{background:#fff8ea;border-color:#e3a456;margin-bottom:6mm;padding:4mm 5mm;break-inside:avoid}
+  .tips li::before{background:#e0306f}
+  .badge-grid{grid-template-columns:repeat(4,1fr);gap:4mm}
+  .badge-card{padding:4mm;border-color:#ecd3b0;background:#fffaf1;break-inside:avoid}
+  .badge-img{width:30mm;margin-bottom:2mm}
+  .badge-img::before{display:none}
+  .badge-img img{animation:none}
+  .badge-card h3{font-size:12pt;color:#2a1236}
+  .badge-for{font-size:8.5pt;margin:2mm 0 0}
+  .panel[hidden]{display:block!important}
+  .panel{margin-bottom:5mm;break-inside:avoid}
+  .letter{box-shadow:none;border:1px solid #ecd3b0;padding:7mm 8mm 5mm;background:#fffaf1}
+  .letter .body{font-size:10pt;gap:2.5mm;line-height:1.55}
+  .letter .ph{background:#ffe2a8}
+  .letter-foot{display:none}
+  .days{grid-template-columns:repeat(5,1fr);gap:3mm;margin-bottom:8mm}
+  .day{padding:4mm 3mm;border-color:#ecd3b0;background:#fffaf1;break-inside:avoid}
+  .day::after{display:none}
+  .day-ico{width:12mm;height:12mm;margin-bottom:2mm}
+  .day h3{font-size:12pt}
+  .day p{font-size:8.5pt}
+  .shout{border:1px solid #ecd3b0;border-left:5px solid #e0306f;padding:5mm 6mm;background:#fffaf1}
+  .shout p{font-size:10pt}
+  .col,.award,.gift,.g-item{background:#fffaf1!important;border-color:#ecd3b0;break-inside:avoid}
+  .two-col{gap:5mm;margin-bottom:6mm}
+  .col{padding:5mm}
+  .contest{grid-template-columns:1fr 1.2fr;gap:6mm}
+  .global{background:#fff;padding:0;page-break-before:always}
+  .global h2{color:#2a1236}
+  .global-grid{gap:3mm}
+  .print-end{display:block!important;margin-top:10mm;padding:8mm;border-radius:6mm;background:#fff3dc;text-align:center;break-inside:avoid}
+  .print-end h2{font-family:var(--font-display);font-weight:400;font-size:20pt;color:#2a1236}
+  .print-end p{margin-top:2mm;color:#5a4466}
+  .print-end a{color:#e0306f;font-weight:600}
+  .flame-g,.glow,.corner-rangoli svg{animation:none!important}
+  body{font-size:9.5pt}
+  .tips ul{grid-template-columns:repeat(3,1fr);gap:3mm 6mm}
+  .tips li{font-size:8.5pt}
+  .tips h3{margin-bottom:2mm}
+  .badge-card{padding:3mm 2mm}
+  .badge-img{width:22mm}
+  .badge-card h3{font-size:10.5pt}
+  .badge-mean{font-size:8pt;min-height:0}
+  .badge-for{font-size:7.8pt;margin-top:1mm}
+  .letter{padding:5mm 7mm 4mm}
+  .letter .subject{margin:2mm 0 3mm;padding-bottom:2mm;font-size:10pt}
+  .letter .body{font-size:9pt;gap:2mm;line-height:1.5}
+  .letter::before{height:5px}
+  .section-intro{font-size:10pt;margin-bottom:4mm}
+  .idea{padding:2mm 0}
+  .idea p,.gift p,.g-item p,.award p,.steps li{font-size:8.5pt}
+  .two-col{grid-template-columns:1fr 1fr}
+  .sub-head{font-size:14pt;margin-top:4mm}
+  .sub-intro{margin-bottom:3mm}
+  .tablist + .panel{margin-top:0}
+  .shout{padding:4mm 5mm;margin-bottom:0}
+  .shout .q{display:none}
+  .shout p{font-size:9pt}
+  .plabel{font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:#e0306f;font-weight:600;margin-bottom:1mm}
+  .days{grid-template-columns:repeat(5,1fr)!important}
+  .day:last-child{grid-column:auto!important}
+  .contest{grid-template-columns:1fr 1.5fr!important}
+  .awards{grid-template-columns:repeat(3,1fr)!important;gap:3mm}
+  .award{padding:3mm 2mm}
+  .award h4{font-size:9.5pt}
+  .gift.feature h3{font-size:13pt}
+  .gift.feature p{font-size:10pt}
+  .gift-groups{grid-template-columns:1fr!important;gap:4mm}
+  .gift-group{background:#fffaf1;border-color:#ecd3b0;padding:4mm}
+  .gift-row{grid-template-columns:repeat(3,1fr)!important}
+  .gift-row.five{grid-template-columns:repeat(5,1fr)!important}
+  .g-ico{width:14mm;height:14mm;padding:2mm}
+  .gift h4{font-size:9.5pt}
+  .mix{background:#fff3dc;border-color:#ecd3b0;padding:5mm;break-inside:avoid}
+  .mix-art img{width:16mm;height:16mm}
+  .mix h3{font-size:14pt}
+  .award::before{display:none}
+  .a-ico{width:12mm;height:12mm;padding:1.5mm}
+  .award h4{color:#2a1236}
+  .global-grid{grid-template-columns:repeat(4,1fr)!important}
+  .global h2{font-size:20pt}
+  .steps li::before{color:#fff!important}
+  .g-photo{border-radius:2mm}
+}
+</style>
+</head>
+<body>
+
+<!-- shared SVG gradients -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="gFlame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff3b0"/>
+      <stop offset=".45" stop-color="#ffc233"/>
+      <stop offset="1" stop-color="#ff6a00"/>
+    </linearGradient>
+    <linearGradient id="gBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9652a"/>
+      <stop offset="1" stop-color="#8c2f10"/>
+    </linearGradient>
+    <radialGradient id="gGlow">
+      <stop offset="0" stop-color="#ffd76a" stop-opacity=".85"/>
+      <stop offset=".4" stop-color="#ff9a2e" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#ff7a1c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gBulb">
+      <stop offset="0" stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".35" stop-color="currentColor" stop-opacity=".9"/>
+      <stop offset="1" stop-color="currentColor" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
+
+<div class="ad-header">
+  <div class="ad-header-inner">
+    <a class="ad-logo" href="#top" aria-label="Vantage Circle">
+      <img src="https://cdn.vantagecircle.com/image/upload/f_auto,q_auto,w_273/gatsbycms/uploads/2023/07/new-vc-logo.png" alt="Vantage Circle Logo" width="250" height="40">
+    </a>
+    <nav class="ad-nav" aria-label="Toolkit sections">
+      <ul class="ad-nav-links">
+        <li><a href="#cards">Diwali cards</a></li>
+        <li><a href="#emails">Emails</a></li>
+        <li><a href="#week">Recognition week</a></li>
+        <li><a href="#celebrate">Celebrate</a></li>
+        <li><a href="#gifts">Gifts</a></li>
+      </ul>
+      <!-- Note for dev: swap PDF href for the Cloudinary fl_attachment link once uploaded, same as Halloween -->
+      <a class="ad-cta" href="diwali-at-work-toolkit-2026.pdf" download data-pdf-download>Download PDF</a>
+    </nav>
+    <button class="ad-burger" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+  <div class="ad-mobile-menu" id="mobileMenu">
+    <a href="#cards">Diwali cards</a>
+    <a href="#emails">Emails</a>
+    <a href="#week">Recognition week</a>
+    <a href="#celebrate">Celebrate</a>
+    <a href="#gifts">Gifts</a>
+    <a class="ad-cta" href="diwali-at-work-toolkit-2026.pdf" download data-pdf-download>Download PDF</a>
+  </div>
+</div>
+
+<!-- print cover (PDF only) -->
+<div class="print-only print-cover" aria-hidden="true">
+  <div class="pc-rangoli" data-rangoli="a"></div>
+  <div class="pc-rangoli b" data-rangoli="b"></div>
+  <img class="logo" src="https://cdn.vantagecircle.com/image/upload/f_auto,q_auto,w_273/gatsbycms/uploads/2023/07/new-vc-logo.png" alt="">
+  <span class="eyebrow">Diwali 2026 · Free HR toolkit</span>
+  <h1>Diwali Celebration <span>at Work</span></h1>
+  <p>Badges to share, greeting emails to send, a five-day recognition plan, celebration ideas and gifting tips. Everything HR and managers need to celebrate with teams anywhere.</p>
+  <div class="pc-diyas" data-diyas="5"></div>
+  <ol>
+    <li><b>01</b>Diwali badges</li>
+    <li><b>02</b>Greeting emails</li>
+    <li><b>03</b>Five days of light</li>
+    <li><b>04</b>Celebration ideas</li>
+    <li><b>05</b>Diwali gifting</li>
+    <li><b>06</b>Celebrating with a global team</li>
+  </ol>
+</div>
+
+<header class="hero" id="top">
+  <svg class="fireworks" id="fireworks" viewBox="0 0 1440 560" preserveAspectRatio="xMidYMin slice" aria-hidden="true"></svg>
+  <svg class="lights" id="lights" viewBox="0 0 1440 150" preserveAspectRatio="xMidYMin slice" aria-hidden="true"></svg>
+  <div class="kandil k1" data-kandil="1" aria-hidden="true"></div>
+  <div class="kandil k3" data-kandil="1" aria-hidden="true"></div>
+
+  <div class="hero-rangoli" aria-hidden="true">
+    <div data-rangoli="hero" style="width:100%;height:100%"></div>
+  </div>
+
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Light up someone's <span>Diwali at work</span></h1>
+      <p class="hero-lede">Pick a badge, write a few words, send it. Everything else you need to celebrate with your team is right below.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#cards">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>
+          Send a Diwali card
+        </a>
+        <a class="btn btn-ghost" href="diwali-at-work-toolkit-2026.pdf" download data-pdf-download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16"/></svg>
+          Download the toolkit (PDF)
+        </a>
+      </div>
+      <ul class="hero-meta">
+        <li>8 Diwali badges</li>
+        <li>4 greeting emails</li>
+        <li>5-day recognition plan</li>
+        <li>Celebration and gift ideas</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="diya-row" data-diyas="9" aria-hidden="true"></div>
+</header>
+
+<div class="intro-bar">
+  <div class="wrap">
+    <p><strong>Five ready-to-run plays.</strong> Start with a card, then open the one you need.</p>
+    <nav class="jump" aria-label="Jump to">
+      <a href="#cards">01 Cards</a><a href="#emails">02 Emails</a><a href="#week">03 Recognition week</a><a href="#celebrate">04 Celebrate</a><a href="#gifts">05 Gifts</a>
+      <button class="expand-all" type="button" data-toggle-all>Expand all</button>
+    </nav>
+  </div>
+</div>
+
+<main id="toolkit">
+
+  <!-- 01 CARDS -->
+  <section class="play" id="cards">
+    <svg class="toran" data-toran viewBox="0 0 1440 110" preserveAspectRatio="xMidYMin slice" aria-hidden="true" style="position:absolute;top:0;left:0"></svg>
+    <div class="corner-rangoli tr" data-rangoli="corner" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="play-no">01</span>
+        <span class="kicker">Diwali cards</span>
+        <h2>Light up a colleague's Diwali</h2>
+      </div>
+      <p class="section-intro">Pick the badge that fits someone you work with. Add a few words and we'll send it to them as a Diwali card. It takes a minute, and they'll remember it longer than that.</p>
+
+      <details class="tips">
+        <summary><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v3M4.2 5.2l2.1 2.1M2 12h3M19 12h3M17.7 7.3l2.1-2.1M9 18h6M10 21h4"/><path d="M8 14a4 4 0 118 0c0 1.2-.6 2-1 3H9c-.4-1-1-1.8-1-3z"/></svg>Tips for a card they'll keep<span class="tips-count">3 tips</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <ul>
+          <li><strong>Be specific.</strong> "Thanks for staying late on the launch" lands better than "thanks for everything".</li>
+          <li><strong>Think beyond your team.</strong> The person in IT or finance who helped you out deserves one too.</li>
+          <li><strong>Send it before the break.</strong> Diwali falls on Sunday, 8 November, so cards sent by Friday arrive while people are still at work.</li>
+        </ul>
+      </details>
+
+      <div class="badge-grid" id="badgeGrid"></div>
+
+      <p class="zip-row no-print">
+        <span>Running this on your own recognition platform?</span>
+        <a href="badges/diwali-badges-2026.zip" download>Download all 8 badges (ZIP)</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- 02 EMAILS -->
+  <section class="play" id="emails">
+    <svg class="toran" data-toran viewBox="0 0 1440 110" preserveAspectRatio="xMidYMin slice" aria-hidden="true" style="position:absolute;top:0;left:0"></svg>
+    <div class="corner-rangoli bl" data-rangoli="corner" aria-hidden="true"></div>
+    <div class="wrap">
+      <details class="fold">
+      <summary class="section-head">
+        <span class="play-no">02</span>
+        <span class="kicker">Greeting emails</span>
+        <h2>Send warm Diwali wishes</h2>
+        <span class="fold-meta">4 ready-to-send emails, copy in one click</span>
+        <span class="fold-toggle"><span class="when-closed">Open</span><span class="when-open">Close</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
+      </summary>
+      <div class="fold-body">
+      <p class="section-intro">Four ready-to-send emails for different moments. Fill in the highlighted bits, make it sound like you, and send.</p>
+
+      <details class="tips">
+        <summary><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v3M4.2 5.2l2.1 2.1M2 12h3M19 12h3M17.7 7.3l2.1-2.1M9 18h6M10 21h4"/><path d="M8 14a4 4 0 118 0c0 1.2-.6 2-1 3H9c-.4-1-1-1.8-1-3z"/></svg>Before you hit send<span class="tips-count">3 tips</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <ul>
+          <li><strong>Wish everyone.</strong> Not everyone celebrates Diwali, and that's fine. A warm note works for all.</li>
+          <li><strong>Name a real moment.</strong> One specific win from the year makes the whole email feel personal.</li>
+          <li><strong>Mind the calendar.</strong> Many colleagues in India take time off around Diwali. Send early in the week.</li>
+        </ul>
+      </details>
+
+      <div class="tabs" data-tabs>
+        <div class="tablist" role="tablist" aria-label="Diwali emails">
+          <button class="tab" role="tab" id="et1" aria-controls="ep1" aria-selected="true"><span class="n">1</span>Company-wide</button>
+          <button class="tab" role="tab" id="et2" aria-controls="ep2" aria-selected="false" tabindex="-1"><span class="n">2</span>Manager to team</button>
+          <button class="tab" role="tab" id="et3" aria-controls="ep3" aria-selected="false" tabindex="-1"><span class="n">3</span>Global teams</button>
+          <button class="tab" role="tab" id="et4" aria-controls="ep4" aria-selected="false" tabindex="-1"><span class="n">4</span>Quick chat note</button>
+        </div>
+
+        <div class="panel" role="tabpanel" id="ep1" aria-labelledby="et1">
+          <article class="letter">
+            <div class="letter-rangoli" data-rangoli="corner" aria-hidden="true"></div>
+            <span class="for">For the whole company</span>
+            <p class="subject"><b>Subject:</b> <span data-copy-subject>Wishing you a bright Diwali</span></p>
+            <div class="body" data-copy-body>
+              <p>Hi everyone,</p>
+              <p>Diwali, the festival of lights, is here. For many of our colleagues, it means diyas in the window, sweets on every table and long evenings with family.</p>
+              <p>It's also a good moment to look back at the year and notice the people who made it brighter. The colleague who picked up extra work without being asked. The one who always had an answer. The one who made Mondays a little easier.</p>
+              <p>This week, take a minute to thank one of them. A short note is enough.</p>
+              <p>Wishing you and your loved ones a happy Diwali, full of light, good food and rest.</p>
+              <p>Warmly,<br><span class="ph">[Your name]</span></p>
+            </div>
+            <div class="letter-foot"><button class="copy-btn" type="button" data-copy="letter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>Copy email</button></div>
+          </article>
+        </div>
+
+        <div class="panel" role="tabpanel" id="ep2" aria-labelledby="et2" hidden>
+          <article class="letter">
+            <div class="letter-rangoli" data-rangoli="corner" aria-hidden="true"></div>
+            <span class="for">From a manager to their team</span>
+            <p class="subject"><b>Subject:</b> <span data-copy-subject>Thank you for lighting up this year</span></p>
+            <div class="body" data-copy-body>
+              <p>Hi team,</p>
+              <p>Before we break for Diwali, I wanted to say thank you.</p>
+              <p>This year asked a lot of us. <span class="ph">[Name a real moment: the launch, the migration, the busy season]</span>. You showed up for it, and for each other.</p>
+              <p>On Diwali, every diya adds a little more light to the room. That's what each of you did for this team. It made a difference, and I noticed.</p>
+              <p>Enjoy the break. Eat too many sweets. Come back rested.</p>
+              <p>Happy Diwali,<br><span class="ph">[Your name]</span></p>
+            </div>
+            <div class="letter-foot"><button class="copy-btn" type="button" data-copy="letter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>Copy email</button></div>
+          </article>
+        </div>
+
+        <div class="panel" role="tabpanel" id="ep3" aria-labelledby="et3" hidden>
+          <article class="letter">
+            <div class="letter-rangoli" data-rangoli="corner" aria-hidden="true"></div>
+            <span class="for">For teams across countries</span>
+            <p class="subject"><b>Subject:</b> <span data-copy-subject>A little light from us to you: Happy Diwali</span></p>
+            <div class="body" data-copy-body>
+              <p>Hi everyone,</p>
+              <p>Some of you are celebrating Diwali this week, and some of you may be hearing about it for the first time.</p>
+              <p>Diwali is the festival of lights, celebrated by millions of Hindus, Sikhs, Jains and Buddhists around the world. Homes are lit with small clay lamps called diyas, doorways are decorated with colorful rangoli, and families share sweets and gifts. At its heart, it's a celebration of light over darkness.</p>
+              <p>If you're celebrating, we hope you have a wonderful time with the people you love. If you're not, it's a lovely excuse to wish a colleague well and share something sweet.</p>
+              <p>Happy Diwali from all of us,<br><span class="ph">[Your name]</span></p>
+            </div>
+            <div class="letter-foot"><button class="copy-btn" type="button" data-copy="letter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>Copy email</button></div>
+          </article>
+        </div>
+
+        <div class="panel" role="tabpanel" id="ep4" aria-labelledby="et4" hidden>
+          <article class="letter">
+            <div class="letter-rangoli" data-rangoli="corner" aria-hidden="true"></div>
+            <span class="for">For Slack, Teams or a quick message</span>
+            <p class="subject"><b>Subject:</b> <span data-copy-subject>Happy Diwali!</span></p>
+            <div class="body" data-copy-body>
+              <p>Happy Diwali, <span class="ph">[Name]</span>! 🪔 Thanks for being a bright spot on this team all year. Hope your week is full of sweets, lights and good company.</p>
+              <p>Wishing you and your family a very happy Diwali. Thank you for everything you did for us this year. Enjoy the break!</p>
+              <p>Happy Diwali to the best team I know. Thank you for every late call, quick fix and good laugh this year. Go light some diyas. ✨</p>
+            </div>
+            <div class="letter-foot"><button class="copy-btn" type="button" data-copy="letter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>Copy notes</button></div>
+          </article>
+        </div>
+      </div>
+    </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- 03 WEEK -->
+  <section class="play" id="week">
+    <svg class="toran" data-toran viewBox="0 0 1440 110" preserveAspectRatio="xMidYMin slice" aria-hidden="true" style="position:absolute;top:0;left:0"></svg>
+    <div class="corner-rangoli tr" data-rangoli="corner" aria-hidden="true"></div>
+    <div class="wrap">
+      <details class="fold">
+      <summary class="section-head">
+        <span class="play-no">03</span>
+        <span class="kicker">Recognition campaign</span>
+        <h2>Run five days of light</h2>
+        <span class="fold-meta">A 5-day plan and 4 shoutout templates</span>
+        <span class="fold-toggle"><span class="when-closed">Open</span><span class="when-open">Close</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
+      </summary>
+      <div class="fold-body">
+      <p class="section-intro">Diwali celebrations stretch over five days. Borrow the idea for work: one small recognition moment a day, each tied to a Diwali tradition. Run it the week before the festival.</p>
+
+      <details class="tips">
+        <summary><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v3M4.2 5.2l2.1 2.1M2 12h3M19 12h3M17.7 7.3l2.1-2.1M9 18h6M10 21h4"/><path d="M8 14a4 4 0 118 0c0 1.2-.6 2-1 3H9c-.4-1-1-1.8-1-3z"/></svg>How to run it<span class="tips-count">3 tips</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <ul>
+          <li><strong>Announce it 2 to 3 days before.</strong> Share the five themes in one message so people can plan.</li>
+          <li><strong>Make it open to all.</strong> You don't need to celebrate Diwali to thank someone.</li>
+          <li><strong>Use the badges.</strong> Ask people to tag each shoutout with one of the 8 badges above.</li>
+        </ul>
+      </details>
+
+      <div class="days">
+        <article class="day">
+          <div class="day-ico" aria-hidden="true"><svg viewBox="0 0 64 64"><g fill="#ffd76a"><path d="M32 4l5 18 18 5-18 5-5 18-5-18-18-5 18-5z"/><path d="M52 40l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" opacity=".8"/><path d="M12 42l1.5 4.5 4.5 1.5-4.5 1.5L12 54l-1.5-4.5L6 48l4.5-1.5z" opacity=".7"/></g></svg></div>
+          <span class="d">Day 1</span>
+          <h3>Clean slate</h3>
+          <p>Before Diwali, homes get a deep clean to welcome something new.</p>
+          <p><b>At work:</b> thank the person who cleared a blocker, fixed a mess or tidied up a process nobody else wanted to touch.</p>
+        </article>
+        <article class="day">
+          <div class="day-ico" data-rangoli="mini" aria-hidden="true"></div>
+          <span class="d">Day 2</span>
+          <h3>Rangoli</h3>
+          <p>A rangoli is made one color at a time, often by many hands.</p>
+          <p><b>At work:</b> recognize a cross-team effort and name everyone who added a color to it.</p>
+        </article>
+        <article class="day">
+          <div class="day-ico" aria-hidden="true"><svg viewBox="0 0 64 64"><ellipse cx="32" cy="54" rx="26" ry="5" fill="#e0306f"/><g><circle cx="20" cy="44" r="10" fill="#ffb21a"/><circle cx="44" cy="44" r="10" fill="#ffb21a"/><circle cx="32" cy="28" r="10" fill="#ffc94a"/></g><g fill="#c4581a"><circle cx="17" cy="41" r="1.2"/><circle cx="22" cy="46" r="1.2"/><circle cx="41" cy="42" r="1.2"/><circle cx="46" cy="47" r="1.2"/><circle cx="29" cy="25" r="1.2"/><circle cx="34" cy="30" r="1.2"/></g><path d="M28 18c2-4 6-4 8 0" stroke="#2bb3a3" stroke-width="2" fill="none"/></svg></div>
+          <span class="d">Day 3</span>
+          <h3>Mithai</h3>
+          <p>Sweets are shared with everyone, not only family.</p>
+          <p><b>At work:</b> ask each person to send one sweet note to a colleague they don't usually work with.</p>
+        </article>
+        <article class="day">
+          <div class="day-ico" data-diya aria-hidden="true"></div>
+          <span class="d">Day 4</span>
+          <h3>Diya</h3>
+          <p>One diya can light another without losing its own flame.</p>
+          <p><b>At work:</b> recognize a mentor or teammate who helped someone else learn and grow.</p>
+        </article>
+        <article class="day">
+          <div class="day-ico" aria-hidden="true"><svg viewBox="0 0 64 64"><rect x="10" y="26" width="44" height="32" rx="3" fill="#e0306f"/><rect x="6" y="18" width="52" height="11" rx="3" fill="#ff4f86"/><rect x="28" y="18" width="8" height="40" fill="#ffd76a"/><path d="M32 18c-6-10-16-8-12-2 2 3 8 2 12 2zm0 0c6-10 16-8 12-2-2 3-8 2-12 2z" fill="#ffb21a"/><g fill="#ffd76a"><circle cx="18" cy="40" r="2"/><circle cx="46" cy="44" r="2"/><circle cx="18" cy="50" r="1.4"/><circle cx="46" cy="34" r="1.4"/></g></svg></div>
+          <span class="d">Day 5</span>
+          <h3>Gifts and greetings</h3>
+          <p>The festival ends with gifts, visits and warm wishes.</p>
+          <p><b>At work:</b> managers share a roundup of the week's shoutouts, hand out badges and send the team off with Diwali wishes.</p>
+        </article>
+      </div>
+
+      <h3 class="sub-head">Shoutouts you can copy</h3>
+      <p class="sub-intro">Four templates for every direction. Swap in the details and post them on your recognition platform, in chat or by email.</p>
+
+      <div class="tabs" data-tabs>
+        <div class="tablist" role="tablist" aria-label="Shoutout templates">
+          <button class="tab" role="tab" id="st1" aria-controls="sp1" aria-selected="true"><span class="n">1</span>Peer to peer</button>
+          <button class="tab" role="tab" id="st2" aria-controls="sp2" aria-selected="false" tabindex="-1"><span class="n">2</span>Manager to team</button>
+          <button class="tab" role="tab" id="st3" aria-controls="sp3" aria-selected="false" tabindex="-1"><span class="n">3</span>Manager to employee</button>
+          <button class="tab" role="tab" id="st4" aria-controls="sp4" aria-selected="false" tabindex="-1"><span class="n">4</span>Employee to manager</button>
+        </div>
+        <div class="panel" role="tabpanel" id="sp1" aria-labelledby="st1">
+          <div class="shout"><span class="print-only plabel">Peer to peer</span><div class="q" aria-hidden="true">“</div><p data-copy-body>Happy Diwali, <span class="ph">[Name]</span>! Thank you for <span class="ph">[specific thing they did]</span>. You made <span class="ph">[project or week]</span> so much easier, and I don't think I said it enough. Sending a little light back your way. 🪔</p><div class="letter-foot"><button class="copy-btn" type="button" data-copy="shout"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>Copy</button></div></div>
+        </div>
+        <div class="panel" role="tabpanel" id="sp2" aria-labelledby="st2" hidden>
+          <div class="shout"><span class="print-only plabel">Manager to team</span><div class="q" aria-hidden="true">“</div><p data-copy-body>Team, as we head into Diwali, I want to recognize how you <span class="ph">[specific achievement]</span>. Every one of you added something to it, like diyas lighting up a room. Thank you, and Happy Diwali.</p><div class="letter-foot"><button class="copy-btn" type="button" data-copy="shout"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>Copy</button></div></div>
+        </div>
+        <div class="panel" role="tabpanel" id="sp3" aria-labelledby="st3" hidden>
+          <div class="shout"><span class="print-only plabel">Manager to employee</span><div class="q" aria-hidden="true">“</div><p data-copy-body><span class="ph">[Name]</span>, your work on <span class="ph">[project]</span> this year stood out. You <span class="ph">[specific action]</span>, and it <span class="ph">[result for the team or customer]</span>. Thank you for bringing so much light to this team. Happy Diwali!</p><div class="letter-foot"><button class="copy-btn" type="button" data-copy="shout"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>Copy</button></div></div>
+        </div>
+        <div class="panel" role="tabpanel" id="sp4" aria-labelledby="st4" hidden>
+          <div class="shout"><span class="print-only plabel">Employee to manager</span><div class="q" aria-hidden="true">“</div><p data-copy-body><span class="ph">[Name]</span>, thank you for <span class="ph">[specific support or advice]</span> this year. Your guidance made a real difference to me, and I wanted you to know. Wishing you a happy and restful Diwali.</p><div class="letter-foot"><button class="copy-btn" type="button" data-copy="shout"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>Copy</button></div></div>
+        </div>
+      </div>
+    </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- 04 CELEBRATE -->
+  <section class="play" id="celebrate">
+    <svg class="toran" data-toran viewBox="0 0 1440 110" preserveAspectRatio="xMidYMin slice" aria-hidden="true" style="position:absolute;top:0;left:0"></svg>
+    <div class="corner-rangoli bl" data-rangoli="corner" aria-hidden="true"></div>
+    <div class="wrap">
+      <details class="fold">
+      <summary class="section-head">
+        <span class="play-no">04</span>
+        <span class="kicker">Celebration ideas</span>
+        <h2>Celebrate together, wherever you are</h2>
+        <span class="fold-meta">Office and remote ideas, plus a contest</span>
+        <span class="fold-toggle"><span class="when-closed">Open</span><span class="when-open">Close</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
+      </summary>
+      <div class="fold-body">
+      <p class="section-intro">Ideas for the office and for teams spread across cities and time zones. Pick two or three, not all of them.</p>
+
+      <details class="tips">
+        <summary><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v3M4.2 5.2l2.1 2.1M2 12h3M19 12h3M17.7 7.3l2.1-2.1M9 18h6M10 21h4"/><path d="M8 14a4 4 0 118 0c0 1.2-.6 2-1 3H9c-.4-1-1-1.8-1-3z"/></svg>Keep it safe and easy<span class="tips-count">3 tips</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <ul>
+          <li><strong>Use LED diyas indoors.</strong> Skip open flames and firecrackers at the office.</li>
+          <li><strong>Keep it optional.</strong> Dress-up days and contests work best when nobody feels they have to join.</li>
+          <li><strong>Plan around leave.</strong> Hold events a few days before Diwali, when most people are still around.</li>
+        </ul>
+      </details>
+
+      <div class="two-col">
+        <div class="col">
+          <div class="col-head">
+            <div data-diya style="width:46px" aria-hidden="true"></div>
+            <h3>In the office</h3>
+          </div>
+          <div class="idea"><span class="mg" data-marigold aria-hidden="true"></span><div><h4>Rangoli contest</h4><p>Teams design a rangoli at the entrance using colored powder, flowers or rice. Give them 45 minutes and judge on teamwork, not art skills.</p></div></div>
+          <div class="idea"><span class="mg" data-marigold aria-hidden="true"></span><div><h4>Diya painting</h4><p>Set out plain clay diyas, paints and glitter. People paint one to take home and one for the office.</p></div></div>
+          <div class="idea"><span class="mg" data-marigold aria-hidden="true"></span><div><h4>Sweets potluck</h4><p>Everyone brings a sweet from their home region or culture. Label each one with its name and story.</p></div></div>
+          <div class="idea"><span class="mg" data-marigold aria-hidden="true"></span><div><h4>Festive dress day</h4><p>Traditional or festive wear, open to everyone. Set up a decorated corner for team photos.</p></div></div>
+          <div class="idea"><span class="mg" data-marigold aria-hidden="true"></span><div><h4>Light up the floor</h4><p>String lights, marigold garlands and paper lanterns. Let each team decorate its own corner.</p></div></div>
+        </div>
+        <div class="col">
+          <div class="col-head">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="20" cy="30" r="16" fill="url(#gGlow)" opacity=".6"/><path d="M5 22L22 8l17 14" fill="none" stroke="#ffd76a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 20v22h26V20" fill="#7a2040" stroke="#ffd76a" stroke-width="2" stroke-linejoin="round"/><rect x="13" y="26" width="9" height="8" rx="1" fill="#ffc94a"/><path d="M17.5 26v8M13 30h9" stroke="#b5481c" stroke-width="1.2"/><rect x="25" y="30" width="6" height="12" rx="1" fill="#e0306f"/><path d="M40 6v8" stroke="#c9a25a" stroke-width="1.2"/><path d="M40 14l5 6-5 7-5-7z" fill="#ffb21a"/><path d="M36 20h8" stroke="#e0306f" stroke-width="2"/><path d="M38 27v6M40 27v8M42 27v6" stroke="#ffd76a" stroke-width="1"/></svg>
+            <h3>Hybrid and remote</h3>
+          </div>
+          <div class="idea"><span class="mg" data-marigold aria-hidden="true"></span><div><h4>Rangoli at home</h4><p>People make a small rangoli with whatever they have, from spices to flower petals, and share a photo in one channel.</p></div></div>
+          <div class="idea"><span class="mg" data-marigold aria-hidden="true"></span><div><h4>Festive background day</h4><p>Everyone joins calls with a Diwali background or a real diya on their desk.</p></div></div>
+          <div class="idea"><span class="mg" data-marigold aria-hidden="true"></span><div><h4>Sweets by delivery</h4><p>Send a food delivery voucher so everyone can order their favorite mithai on the same day.</p></div></div>
+          <div class="idea"><span class="mg" data-marigold aria-hidden="true"></span><div><h4>How I celebrate</h4><p>A 30-minute call where a few colleagues share how their family marks Diwali. Great for global teams.</p></div></div>
+          <div class="idea"><span class="mg" data-marigold aria-hidden="true"></span><div><h4>Team Diwali playlist</h4><p>Everyone adds one festive song. Play it during the last meeting of the week.</p></div></div>
+        </div>
+      </div>
+
+      <h3 class="sub-head">Host a rangoli or decor contest</h3>
+      <p class="sub-intro">Works in the office, at home, or both.</p>
+      <div class="contest">
+        <ol class="steps">
+          <li><div><strong>Pick 3 or 4 awards</strong>Choose from the list, or make up your own.</div></li>
+          <li><div><strong>Collect entries</strong>Photos from the office floor, or uploads from people working remotely. Give everyone two days.</div></li>
+          <li><div><strong>Open a 24-hour vote</strong>One vote per person per category. Keep it in a channel everyone can see.</div></li>
+          <li><div><strong>Announce winners</strong>On the last workday before Diwali, with a badge and a small gift.</div></li>
+        </ol>
+        <div class="awards" id="awards"></div>
+      </div>
+    </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- 05 GIFTS -->
+  <section class="play" id="gifts">
+    <svg class="toran" data-toran viewBox="0 0 1440 110" preserveAspectRatio="xMidYMin slice" aria-hidden="true" style="position:absolute;top:0;left:0"></svg>
+    <div class="corner-rangoli tr" data-rangoli="corner" aria-hidden="true"></div>
+    <div class="wrap">
+      <details class="fold">
+      <summary class="section-head">
+        <span class="play-no">05</span>
+        <span class="kicker">Diwali gifting</span>
+        <h2>Send something sweet</h2>
+        <span class="fold-meta">Gift ideas for office and remote teams</span>
+        <span class="fold-toggle"><span class="when-closed">Open</span><span class="when-open">Close</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
+      </summary>
+      <div class="fold-body">
+      <p class="section-intro">Gifts are a big part of Diwali. Match the gift to where people work, and add a personal note so it feels like more than a box.</p>
+
+      <details class="tips">
+        <summary><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v3M4.2 5.2l2.1 2.1M2 12h3M19 12h3M17.7 7.3l2.1-2.1M9 18h6M10 21h4"/><path d="M8 14a4 4 0 118 0c0 1.2-.6 2-1 3H9c-.4-1-1-1.8-1-3z"/></svg>Gifting tips<span class="tips-count">3 tips</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <ul>
+          <li><strong>Order early.</strong> Couriers get busy in Diwali week. Ship physical gifts at least 10 days ahead.</li>
+          <li><strong>Check dietary needs.</strong> Offer sugar-free, vegan or nut-free options.</li>
+          <li><strong>Go digital for remote teams.</strong> Vouchers and e-gift cards arrive on time, in any country.</li>
+        </ul>
+      </details>
+
+      <div class="gift-groups">
+        <div class="gift-group">
+          <h3 class="gg-head"><span>In the office</span></h3>
+          <div class="gift-row"><div class="gift"><div class="g-photo"><img src="gifts/mithai.jpg" alt="Mithai box" loading="lazy" width="700" height="525"></div><h4>Mithai box</h4><p>Classic sweets with a note from the team</p></div><div class="gift"><div class="g-photo"><img src="gifts/dryfruit.jpg" alt="Dry fruit hamper" loading="lazy" width="700" height="525"></div><h4>Dry fruit hamper</h4><p>Travels well, suits most diets</p></div><div class="gift"><div class="g-photo"><img src="gifts/diya.jpg" alt="Diya and lantern kit" loading="lazy" width="700" height="525"></div><h4>Diya and lantern kit</h4><p>Hand-painted or LED, for home</p></div></div>
+        </div>
+        <div class="gift-group">
+          <h3 class="gg-head"><span>Anywhere in the world</span></h3>
+          <div class="gift-row five"><div class="gift"><div class="g-photo"><img src="gifts/egift.jpg" alt="E-gift cards" loading="lazy" width="700" height="525"></div><h4>E-gift cards</h4><p>They pick what they want</p></div><div class="gift"><div class="g-photo"><img src="gifts/food.jpg" alt="Food delivery voucher" loading="lazy" width="700" height="525"></div><h4>Food delivery voucher</h4><p>A festive dinner at home</p></div><div class="gift"><div class="g-photo"><img src="gifts/experience.jpg" alt="Experience voucher" loading="lazy" width="700" height="525"></div><h4>Experience voucher</h4><p>A movie, a spa or a meal out</p></div><div class="gift"><div class="g-photo"><img src="gifts/plant.jpg" alt="A plant" loading="lazy" width="700" height="525"></div><h4>A plant</h4><p>Lasts longer than sweets</p></div><div class="gift"><div class="g-photo"><img src="gifts/choose.jpg" alt="Let them choose" loading="lazy" width="700" height="525"></div><h4>Let them choose</h4><p>Reward points that work in any country</p></div></div>
+        </div>
+      </div>
+      <div class="mix">
+        <div class="mix-art" aria-hidden="true">
+          <img src="badges/muskaan-ka-diya.png" alt=""><img src="badges/mithaas-ki-potli.png" alt=""><img src="badges/team-spirit-booster.png" alt="">
+          <span class="plus">+</span>
+          <div class="mix-gift"><img src="gifts/choose.jpg" alt=""></div>
+        </div>
+        <div class="mix-copy">
+          <span class="tag">Our favorite</span>
+          <h3>Mix and match</h3>
+          <p>Pair any gift with a Diwali badge and a personal note. The gift gets opened once. The note gets kept.</p>
+        </div>
+      </div>
+    </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- GLOBAL -->
+  <section class="global" id="global">
+    <div class="wrap">
+      <h2>Celebrating with a global team</h2>
+      <p class="section-intro">Diwali is celebrated around the world, but not by everyone. A few things that help it feel welcoming to all.</p>
+      <div class="global-grid">
+        <div class="g-item"><span class="num">1</span><h3>Explain, don't assume</h3><p>Share a line or two about what Diwali is. People enjoy learning about it.</p></div>
+        <div class="g-item"><span class="num">2</span><h3>Invite, don't require</h3><p>Everything here should be opt-in. Thanking a colleague is open to everyone.</p></div>
+        <div class="g-item"><span class="num">3</span><h3>Plan around time off</h3><p>Avoid big deadlines in Diwali week, and pick event times that work across time zones.</p></div>
+        <div class="g-item"><span class="num">4</span><h3>Know it's not one story</h3><p>Sikhs mark Bandi Chhor Divas and Jains mark Mahavira's nirvana at the same time. Traditions vary by region and family.</p></div>
+      </div>
+    </div>
+    <div class="print-only print-end">
+      <h2>Make appreciation part of the celebration</h2>
+      <p>Send a free Diwali card to a colleague at <a href="https://www.vantagecircle.com/diwali-at-work/">vantagecircle.com/diwali-at-work</a></p>
+    </div>
+  </section>
+
+</main>
+
+<!-- CLOSING -->
+<section class="closing" aria-labelledby="closingTitle">
+  <div class="wrap">
+    <h2 id="closingTitle">Ready to light up <span>your workplace?</span></h2>
+    <p>Keep it warm, keep it open to everyone, and make appreciation part of the festival. This Diwali and every day after.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#cards">Send a Diwali card</a>
+      <a class="btn btn-ghost" href="diwali-at-work-toolkit-2026.pdf" download data-pdf-download>Download the PDF toolkit</a>
+    </div>
+  </div>
+  <div class="diya-row" data-diyas="11" aria-hidden="true"></div>
+</section>
+
+<footer class="ad-footer">
+  <div class="ad-footer-top">
+    <div>
+      <div class="ad-stores">
+        <a class="ad-store" href="https://play.google.com/store/apps/details?id=com.bargaintechnologies.vantagecircle&amp;hl=en" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 2.5l11 9.5-11 9.5c-.4-.2-.6-.6-.6-1.1V3.6c0-.5.2-.9.6-1.1zm12.4 10.7l2.6 1.5-11.6 6.7 9-8.2zm0-2.4l-9-8.2L19 9.3l-2.6 1.5zm1.3.6l3 1.7c.8.5.8 1.3 0 1.8l-3 1.7-2.8-2.6 2.8-2.6z"/></svg>
+          <span><small>FREE DOWNLOAD</small><strong>Google Play</strong></span>
+        </a>
+        <a class="ad-store" href="https://apps.apple.com/in/app/vantage-circle/id869311123" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.9c-1.7 0-3.3 1-4.1 2.5-1.8 3.1-.5 7.6 1.3 10.1.8 1.2 1.8 2.6 3.1 2.5 1.3 0 1.7-.8 3.3-.8s2 .8 3.3.8c1.4 0 2.2-1.2 3.1-2.5 1-1.4 1.4-2.8 1.4-2.8s-2.8-1.1-2.8-4.1zM13.9 5.3c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.2 2-1.1 3.1 1.2.1 2.3-.6 3.1-1.5z"/></svg>
+          <span><small>FREE DOWNLOAD</small><strong>App Store</strong></span>
+        </a>
+      </div>
+      <div class="ad-social">
+        <a href="https://www.facebook.com/vantagecircle/" rel="noopener noreferrer" aria-label="Facebook">f</a>
+        <a href="https://x.com/VantageCircle/" rel="noopener noreferrer" aria-label="X">X</a>
+        <a href="https://www.linkedin.com/company/vantage-circle/" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+        <a href="https://www.youtube.com/channel/UCzb6J4NEmhuGpj_-u2kz7aw/" rel="noopener noreferrer" aria-label="YouTube">▶</a>
+        <a href="https://www.instagram.com/vantagecircle/" rel="noopener noreferrer" aria-label="Instagram">ig</a>
+      </div>
+    </div>
+    <div class="ad-certs">
+      <img loading="lazy" src="https://cdn.vantagecircle.com/image/upload/q_auto,f_auto/w_100/gatsbycms/uploads/2021/08/ISO-cert.svg" alt="ISO 27001:2013 Certified" width="100" height="43">
+      <img loading="lazy" src="https://cdn.vantagecircle.com/image/upload/q_auto,f_auto/w_98/v1629535048/gatsbycms/uploads/2021/08/GDPR.svg" alt="GDPR EU" width="98" height="23">
+    </div>
+  </div>
+  <div class="ad-footer-bottom">
+    <div class="ad-footer-bottom-inner">
+      <div class="ad-copy"><a href="https://www.vantagecircle.com/">Vantage Circle</a>. 2026 All rights reserved.</div>
+      <div class="ad-legal">
+        <a href="https://www.vantagecircle.com/digital-personal-data-protection-dpdp-act-rights/">DPDP</a>
+        <a href="https://www.vantagecircle.com/gdpr/">GDPR</a>
+        <a href="https://www.vantagecircle.com/security-at-vantage-circle/">Security</a>
+        <a href="https://www.vantagecircle.com/terms-conditions/">Terms and Conditions</a>
+        <a href="https://www.vantagecircle.com/privacy-policy/">Privacy Policy</a>
+        <a href="https://www.vantagecircle.com/cookie-policy/">Cookie Policy</a>
+        <a href="https://www.vantagecircle.com/image-copyright/">Image Copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- CARD DIALOG -->
+<dialog class="card-modal" id="cardModal" aria-labelledby="modalTitle">
+  <button class="modal-close" type="button" data-close aria-label="Close">×</button>
+  <div class="modal-grid">
+    <div class="preview-side">
+      <div class="bg-rangoli" data-rangoli="hero" aria-hidden="true"></div>
+      <div class="e-card" aria-live="polite">
+        <span class="card-corner a" data-rangoli="mini" aria-hidden="true"></span>
+        <span class="card-corner b" data-rangoli="mini" aria-hidden="true"></span>
+        <img id="pvImg" src="" alt="">
+        <div class="to">Dear <span id="pvTo">colleague</span>,</div>
+        <p class="msg" id="pvMsg">Your message will appear here.</p>
+        <div class="from">With warm wishes, <strong id="pvFrom">your name</strong></div>
+        <div class="hd">Happy Diwali</div>
+      </div>
+    </div>
+    <div class="form-side">
+      <!-- Note for dev: wire this to the HubSpot form, same setup as /thanksgiving/ (badge name goes in a hidden field) -->
+      <form class="the-form" id="cardForm" novalidate>
+        <h3 id="modalTitle">Personalize your card</h3>
+        <p class="sub">You picked <strong id="pickedName" style="color:var(--gold)"></strong>. Add a few words and we'll send it.</p>
+        <input type="hidden" name="badge" id="badgeField">
+        <div class="field-row">
+          <div class="field"><label for="toName">Their name</label><input id="toName" name="to_name" autocomplete="off" required maxlength="40"></div>
+          <div class="field"><label for="toEmail">Their work email</label><input id="toEmail" name="to_email" type="email" autocomplete="off" required></div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label for="fromName">Your name</label><input id="fromName" name="from_name" autocomplete="name" required maxlength="40"></div>
+          <div class="field"><label for="fromEmail">Your work email</label><input id="fromEmail" name="from_email" type="email" autocomplete="email" required></div>
+        </div>
+        <div class="field">
+          <label for="msg">Your message</label>
+          <textarea id="msg" name="message" maxlength="300" required></textarea>
+          <span class="count"><span id="msgCount">0</span>/300</span>
+        </div>
+        <div class="starters" id="starters"><span>Stuck? Start with one of these:</span></div>
+        <p class="fineprint">We'll email your card to your colleague and send you a copy. By sending, you agree to our <a href="https://www.vantagecircle.com/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>.</p>
+        <p class="form-error" id="formError" role="alert"></p>
+        <button class="btn btn-primary" type="submit" id="sendBtn">Send my card
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+        </button>
+      </form>
+      <div class="success" id="success">
+        <div class="diya-line" data-diyas="5" aria-hidden="true"></div>
+        <h3>Card sent. Diya lit.</h3>
+        <p>Your card is on its way to <strong id="sentTo" style="color:var(--cream)"></strong>. Who else made your year brighter?</p>
+        <div class="btns">
+          <button class="btn btn-primary btn-small" type="button" id="sendAnother">Send another card</button>
+          <a class="btn btn-ghost btn-small" id="dlBadge" href="#" download>Download this badge</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  const $ = (s, r=document) => r.querySelector(s);
+  const $$ = (s, r=document) => [...r.querySelectorAll(s)];
+  const rnd = (a,b) => a + Math.random()*(b-a);
+  const C = {marigold:'#ffb21a', saffron:'#ff7a1c', rani:'#e0306f', gold:'#ffd76a', teal:'#2bb3a3', cream:'#fff3dc', purple:'#7b3fc4', green:'#3f9b4a'};
+
+  /* ---------- badge data ---------- */
+  const BADGES = [
+    {slug:'muskaan-ka-diya', name:'Muskaan Ka Diya', mean:'A lamp of smiles', for:'For the colleague who makes everyone smile, even on hard days.',
+      starters:['You have a way of making the hardest days feel lighter. Thank you for every smile this year. Happy Diwali!','Our team is brighter because you are on it. Wishing you a Diwali as warm as you are.']},
+    {slug:'khushiyon-ka-pitara', name:'Khushiyon Ka Pitara', mean:'A box of happiness', for:'For the colleague who brings something good wherever they go.',
+      starters:['Working with you is like opening a box of good news. Thank you for everything you bring. Happy Diwali!','You share wins, ideas and snacks with equal generosity. Thank you for a happy year.']},
+    {slug:'mithaas-ki-potli', name:'Mithaas Ki Potli', mean:'A bundle of sweetness', for:'For the colleague who makes work feel a little sweeter.',
+      starters:['Your kindness made this year sweeter than any box of mithai. Happy Diwali!','Thank you for always having a kind word ready. It never goes unnoticed.']},
+    {slug:'umeed-ki-phuljhadi', name:'Umeed Ki Phuljhadi', mean:'A sparkler of hope', for:'For the colleague who keeps the team hopeful when things get tough.',
+      starters:['When things got tough, you kept us going. Thank you for being our sparkler this year. Happy Diwali!','Your belief in the team helped us through the busy stretch. Thank you.']},
+    {slug:'energy-booster', name:'Energy Booster', mean:'', for:'For the colleague who lifts the room when energy drops.',
+      starters:['You bring the energy every single time. Thank you for keeping us going. Happy Diwali!','Meetings are better when you are in them. Thanks for the spark all year.']},
+    {slug:'joy-maker', name:'Joy Maker', mean:'', for:'For the colleague who makes work more fun.',
+      starters:['You turned ordinary workdays into ones we looked forward to. Happy Diwali!','Thank you for all the laughs this year. Work is more fun with you around.']},
+    {slug:'kindness-keeper', name:'Kindness Keeper', mean:'', for:"For the colleague who is kind even when nobody's watching.",
+      starters:['Thank you for all the quiet ways you help. I see them, and they matter. Happy Diwali!','Your kindness sets the tone for all of us. Thank you.']},
+    {slug:'team-spirit-booster', name:'Team Spirit Booster', mean:'', for:'For the colleague who brings the team together.',
+      starters:['You make us feel like a team, not just a group of people. Thank you. Happy Diwali!','Every win this year had your teamwork in it. Thank you for bringing us together.']}
+  ];
+  const AWARDS = [
+    ['Best rangoli','Colors, patterns, teamwork'],
+    ['Most creative diya','Painted, decorated, or made from scratch'],
+    ['Best festive outfit','Traditional or your own twist'],
+    ['Best decorated desk','Lights, flowers, lanterns'],
+    ['Best virtual background','For the remote crowd'],
+    ['Best team spirit','The team that went all in']
+  ];
+
+  /* ---------- SVG builders ---------- */
+  let uid = 0;
+  function diyaSVG(){
+    const d = rnd(-1.6,0).toFixed(2), g = rnd(-2.2,0).toFixed(2);
+    return `<svg class="diya" viewBox="0 0 120 110" aria-hidden="true">
+      <ellipse class="glow" style="animation-delay:${g}s" cx="60" cy="40" rx="58" ry="46" fill="url(#gGlow)"/>
+      <g class="flame-g" style="animation-delay:${d}s">
+        <path d="M60 4 C72 24 74 38 60 52 C46 38 48 24 60 4Z" fill="url(#gFlame)"/>
+        <path d="M60 24 C65 34 65 42 60 49 C55 42 55 34 60 24Z" fill="#fffbe0"/>
+      </g>
+      <rect x="58.5" y="50" width="3" height="7" rx="1" fill="#3b1d0e"/>
+      <path d="M6 58 Q60 64 114 58 Q106 96 60 100 Q14 96 6 58Z" fill="url(#gBowl)"/>
+      <ellipse cx="60" cy="58" rx="54" ry="7.5" fill="#e98a3c"/>
+      <ellipse cx="60" cy="58" rx="45" ry="4.5" fill="#6e2610"/>
+      <path d="M18 72 Q60 80 102 72" stroke="#ffd76a" stroke-width="2.4" fill="none"/>
+      <g fill="#ffd76a"><circle cx="30" cy="84" r="2.6"/><circle cx="45" cy="88" r="2.6"/><circle cx="60" cy="89" r="3"/><circle cx="75" cy="88" r="2.6"/><circle cx="90" cy="84" r="2.6"/></g>
+      <g fill="#e0306f"><circle cx="37.5" cy="80" r="1.6"/><circle cx="52.5" cy="83" r="1.6"/><circle cx="67.5" cy="83" r="1.6"/><circle cx="82.5" cy="80" r="1.6"/></g>
+    </svg>`;
+  }
+  function petals(n, dist, rx, ry, fill, off=0, extra=''){
+    let s=''; for(let i=0;i<n;i++){ s+=`<ellipse cx="0" cy="${-dist}" rx="${rx}" ry="${ry}" fill="${fill}" transform="rotate(${off+i*360/n})" ${extra}/>`; } return s;
+  }
+  function leaves(n, dist, w, h, fill, off=0){
+    let s=''; for(let i=0;i<n;i++){ s+=`<path d="M0 ${-dist} Q${w} ${-dist-h/2} 0 ${-dist-h} Q${-w} ${-dist-h/2} 0 ${-dist}Z" fill="${fill}" transform="rotate(${off+i*360/n})"/>`; } return s;
+  }
+  function dots(n, dist, r, fills, off=0){
+    let s=''; for(let i=0;i<n;i++){ const a=(off+i*360/n)*Math.PI/180; s+=`<circle cx="${(Math.sin(a)*dist).toFixed(2)}" cy="${(-Math.cos(a)*dist).toFixed(2)}" r="${r}" fill="${fills[i%fills.length]}"/>`; } return s;
+  }
+  function rangoliSVG(kind){
+    const R=100;
+    let g='';
+    if(kind==='mini'){
+      g += leaves(8,6,9,30,C.rani) + leaves(8,6,5,20,C.marigold,22.5) + petals(8,40,4,7,C.teal,22.5) + dots(16,48,2.4,[C.gold,C.cream]) + `<circle r="10" fill="${C.gold}"/><circle r="5" fill="${C.rani}"/>`;
+      return `<svg viewBox="-55 -55 110 110" width="100%" height="100%"><g class="spin">${g}</g></svg>`;
+    }
+    g += `<circle r="${R}" fill="none" stroke="${C.gold}" stroke-width="1.4" stroke-dasharray="2 5"/>`;
+    g += leaves(24,82,6,16,C.rani) + dots(48,79,2,[C.gold,C.cream,C.marigold]);
+    g += leaves(16,58,13,26,C.teal) + leaves(16,58,7,17,C.cream,0);
+    g += leaves(16,60,9,22,C.marigold,11.25);
+    g += `<circle r="57" fill="none" stroke="${C.cream}" stroke-width="1.2" stroke-dasharray="1 4"/>`;
+    g += petals(12,44,7,12,C.rani) + petals(12,44,3.5,7,C.gold);
+    g += leaves(8,14,12,26,C.saffron,22.5) + leaves(8,14,8,30,C.purple) + leaves(8,14,4,18,C.gold);
+    g += dots(16,36,2.2,[C.cream,C.gold]);
+    g += `<circle r="15" fill="${C.marigold}"/><circle r="10" fill="${C.rani}"/><circle r="5" fill="${C.gold}"/>`;
+    g += dots(12,96,3.2,[C.marigold,C.rani,C.teal],7.5);
+    return `<svg viewBox="-104 -104 208 208" width="100%" height="100%"><g class="spin">${g}</g></svg>`;
+  }
+  function marigold(x,y,r,alt){
+    const a = alt ? ['#ff9a1a','#ffb21a','#ffcf4d'] : ['#ffcc1a','#ffd84a','#ffe88a'];
+    return `<g transform="translate(${x.toFixed(1)} ${y.toFixed(1)})"><circle r="${r}" fill="${a[0]}"/><circle r="${r*.8}" fill="none" stroke="#d96a00" stroke-width="1" stroke-dasharray="1.5 1.8"/><circle r="${r*.62}" fill="${a[1]}"/><circle r="${r*.3}" fill="${a[2]}"/></g>`;
+  }
+  function toranSVG(){
+    let s=''; const W=1440, step=180;
+    s += `<path d="M0 4 H${W}" stroke="#7a4a1a" stroke-width="3"/>`;
+    for(let x0=0; x0<W; x0+=step){
+      const x1=x0+step, cx=(x0+x1)/2, cy=58;
+      s += `<path d="M${x0} 4 Q${cx} ${cy} ${x1} 4" stroke="#6b3a14" stroke-width="1.5" fill="none"/>`;
+      for(let t=0.06; t<0.97; t+=0.075){
+        const x=(1-t)*(1-t)*x0+2*(1-t)*t*cx+t*t*x1, y=(1-t)*(1-t)*4+2*(1-t)*t*cy+t*t*4;
+        s += marigold(x,y,9.5, Math.round(t*13)%2);
+      }
+      // hanging strand at hook
+      s += `<path d="M${x0} 4 V70" stroke="#6b3a14" stroke-width="1.2"/>`;
+      s += `<path d="M${x0} 8 q-16 6 -20 24 q14 -4 20 -20z" fill="#3f9b4a"/><path d="M${x0} 8 q16 6 20 24 q-14 -4 -20 -20z" fill="#2f7d3a"/>`;
+      s += marigold(x0,40,8,1) + marigold(x0,58,7,0);
+      s += `<path d="M${x0-6} 68 h12 l-2 12 h-8z" fill="${C.gold}"/><circle cx="${x0}" cy="83" r="2.4" fill="${C.gold}"/>`;
+    }
+    return s;
+  }
+  function lightsSVG(){
+    const cols=[C.gold,C.rani,C.marigold,C.teal,C.cream,C.saffron];
+    let s='', k=0;
+    [[0, -10, 720, 70, 1440, -10]].forEach(([x0,y0,cx,cy,x1,y1],li)=>{
+      s += `<path d="M${x0} ${y0} Q${cx} ${cy} ${x1} ${y1}" stroke="#2a1a10" stroke-width="1.6" fill="none" opacity=".9"/>`;
+      const n = 34;
+      for(let i=1;i<n;i++){
+        const t=i/n, x=(1-t)*(1-t)*x0+2*(1-t)*t*cx+t*t*x1, y=(1-t)*(1-t)*y0+2*(1-t)*t*cy+t*t*y1;
+        const c=cols[k++%cols.length], d=rnd(-2.4,0).toFixed(2);
+        s += `<g class="bulb" style="color:${c};animation-delay:${d}s"><circle cx="${x.toFixed(1)}" cy="${(y+9).toFixed(1)}" r="9" fill="url(#gBulb)" opacity=".3"/><rect x="${(x-2).toFixed(1)}" y="${(y+1).toFixed(1)}" width="4" height="4" fill="#3a2a1a"/><ellipse cx="${x.toFixed(1)}" cy="${(y+9).toFixed(1)}" rx="3.6" ry="5" fill="${c}"/></g>`;
+      }
+    });
+    return s;
+  }
+  function fireworksSVG(){
+    const spots=[[650,140,52,C.rani],[860,90,40,C.teal],[1110,120,64,C.saffron],[1340,230,46,C.purple],[470,80,34,'#d48a00'],[980,320,38,C.rani],[1250,60,30,C.teal]];
+    return spots.map(([x,y,r,c],i)=>{
+      let lines='';
+      const n=18;
+      for(let j=0;j<n;j++){
+        const a=j*2*Math.PI/n, x1=Math.cos(a)*r*.3, y1=Math.sin(a)*r*.3, x2=Math.cos(a)*r, y2=Math.sin(a)*r;
+        lines += `<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" stroke="${c}" stroke-width="2" stroke-linecap="round"/><circle cx="${(x2*1.12).toFixed(1)}" cy="${(y2*1.12).toFixed(1)}" r="2.2" fill="${j%2?C.cream:c}"/>`;
+      }
+      return `<g transform="translate(${x} ${y})"><g class="burst" style="animation-delay:${(i*0.55+rnd(0,.4)).toFixed(2)}s;animation-duration:${rnd(3.6,5).toFixed(2)}s">${lines}</g></g>`;
+    }).join('');
+  }
+  function kandilSVG(v){
+    const pal = v===2 ? [C.teal,'#1f8a7d',C.gold] : v===3 ? [C.marigold,C.saffron,C.rani] : [C.rani,'#a81f55',C.gold];
+    return `<svg viewBox="0 0 100 300" aria-hidden="true">
+      <line x1="50" y1="0" x2="50" y2="${v===2?80:v===3?40:110}" stroke="#c9a25a" stroke-width="1.5"/>
+      <g transform="translate(0 ${v===2?80:v===3?40:110})">
+        
+        <rect x="40" y="0" width="20" height="8" rx="2" fill="${C.gold}"/>
+        <polygon points="50,8 90,52 10,52" fill="${pal[0]}"/>
+        <polygon points="50,18 74,48 26,48" fill="${pal[2]}" opacity=".55"/>
+        <rect x="8" y="52" width="84" height="12" fill="${C.gold}"/>
+        <g fill="${pal[1]}"><circle cx="20" cy="58" r="2.4"/><circle cx="35" cy="58" r="2.4"/><circle cx="50" cy="58" r="2.4"/><circle cx="65" cy="58" r="2.4"/><circle cx="80" cy="58" r="2.4"/></g>
+        <polygon points="10,64 90,64 50,112" fill="${pal[1]}"/>
+        <polygon points="28,64 72,64 50,96" fill="#fff3b0" opacity=".35"/>
+        <g stroke="${pal[2]}" stroke-width="1.6">
+          <line x1="50" y1="112" x2="50" y2="168"/><line x1="46" y1="112" x2="42" y2="160"/><line x1="54" y1="112" x2="58" y2="160"/>
+          <line x1="10" y1="64" x2="8" y2="120"/><line x1="90" y1="64" x2="92" y2="120"/>
+        </g>
+        <path d="M14 64 L22 64 L20 150 L12 140Z" fill="${pal[0]}" opacity=".85"/>
+        <path d="M86 64 L78 64 L80 150 L88 140Z" fill="${pal[0]}" opacity=".85"/>
+        <circle cx="50" cy="170" r="4" fill="${pal[2]}"/>
+      </g>
+    </svg>`;
+  }
+  function awardIcon(i){
+    if(i===0) return rangoliSVG('mini');
+    if(i===1) return diyaSVG();
+    const icons=[null,null,
+      // jhumka earring
+      `<svg viewBox="0 0 48 48"><circle cx="24" cy="6" r="3" fill="#ffd76a"/><path d="M24 9v5" stroke="#ffd76a" stroke-width="2"/><circle cx="24" cy="17" r="4" fill="#e0306f"/><path d="M10 34a14 14 0 0128 0z" fill="#ffb21a"/><path d="M12 30a12 9 0 0124 0" stroke="#e0306f" stroke-width="2" fill="none"/><g fill="#ffd76a"><circle cx="12" cy="38" r="2.2"/><circle cx="18" cy="40" r="2.2"/><circle cx="24" cy="41" r="2.4"/><circle cx="30" cy="40" r="2.2"/><circle cx="36" cy="38" r="2.2"/></g><g fill="#2bb3a3"><circle cx="18" cy="28" r="1.6"/><circle cx="24" cy="26" r="1.6"/><circle cx="30" cy="28" r="1.6"/></g></svg>`,
+      // desk with string lights
+      `<svg viewBox="0 0 48 48"><path d="M4 8q20 12 40 0" stroke="#c9a25a" stroke-width="1.4" fill="none"/><g><circle cx="10" cy="12" r="2.6" fill="#ffd76a"/><circle cx="18" cy="14.5" r="2.6" fill="#e0306f"/><circle cx="26" cy="14.5" r="2.6" fill="#2bb3a3"/><circle cx="34" cy="13" r="2.6" fill="#ffb21a"/><circle cx="41" cy="10" r="2.6" fill="#ffd76a"/></g><rect x="6" y="34" width="36" height="4" rx="1" fill="#d9652a"/><path d="M10 38v8M38 38v8" stroke="#d9652a" stroke-width="3"/><rect x="14" y="22" width="16" height="12" rx="1.5" fill="#fff3dc"/><path d="M30 26h4a3 3 0 010 6h-4" stroke="#fff3dc" stroke-width="2" fill="none"/></svg>`,
+      // laptop with diya
+      `<svg viewBox="0 0 48 48"><rect x="8" y="10" width="32" height="22" rx="2.5" fill="#5a1430" stroke="#ffd76a" stroke-width="2"/><path d="M3 36h42l-3 4H6z" fill="#ffd76a"/><path d="M17 23h14a7 6 0 01-14 0z" fill="#d9652a"/><path d="M24 13c3 4 3 7 0 10-3-3-3-6 0-10z" fill="#ffc233"/><circle cx="24" cy="20" r="9" fill="url(#gGlow)" opacity=".7"/></svg>`,
+      // team: three flames
+      `<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="url(#gGlow)" opacity=".6"/><g fill="#ffc233"><path d="M12 14c4 6 4 10 0 14-4-4-4-8 0-14z"/><path d="M24 8c5 7 5 12 0 17-5-5-5-10 0-17z"/><path d="M36 14c4 6 4 10 0 14-4-4-4-8 0-14z"/></g><g fill="#fff3b0"><path d="M24 15c2 3 2 6 0 8-2-2-2-5 0-8z"/></g><path d="M6 32h36a18 10 0 01-36 0z" fill="#d9652a"/><path d="M10 35h28" stroke="#ffd76a" stroke-width="2" stroke-dasharray="2 3"/></svg>`];
+    return icons[i];
+  }
+
+  /* ---------- render decorations ---------- */
+  $$('[data-diya]').forEach(el => el.innerHTML = diyaSVG());
+  $$('[data-diyas]').forEach(el => { let s=''; for(let i=0;i<+el.dataset.diyas;i++) s+=diyaSVG(); el.innerHTML=s; });
+  $$('[data-rangoli]').forEach(el => el.innerHTML = rangoliSVG(el.dataset.rangoli));
+  $$('[data-toran]').forEach(el => el.innerHTML = toranSVG());
+  $$('[data-kandil]').forEach(el => el.innerHTML = kandilSVG(+el.dataset.kandil));
+  $$('[data-marigold]').forEach((el,i) => el.innerHTML = `<svg viewBox="-12 -12 24 24" width="100%" height="100%">${marigold(0,0,11,i%2)}</svg>`);
+  $('#lights').innerHTML = lightsSVG();
+  $('#fireworks').innerHTML = fireworksSVG();
+  $$('[data-petals]').forEach(el=>{
+    let g=''; for(let i=0;i<13;i++){ const x=30+i*28, y=60+Math.sin(i*0.9)*6; g+=marigold(x,y,i%3?10:13,i%2); }
+    for(let i=0;i<22;i++){ const x=rnd(10,390).toFixed(0), y=rnd(74,96).toFixed(0); g+=`<ellipse cx="${x}" cy="${y}" rx="5" ry="2.6" fill="${[C.rani,C.marigold,C.saffron][i%3]}" transform="rotate(${rnd(0,180).toFixed(0)} ${x} ${y})" opacity=".9"/>`; }
+    el.innerHTML=`<svg viewBox="0 0 400 100" preserveAspectRatio="xMidYMid meet">${g}</svg>`;
+  });
+  $('#awards').innerHTML = AWARDS.map(([h,p],i)=>`<div class="award"><div class="a-ico">${awardIcon(i)}</div><h4>${h}</h4><p>${p}</p></div>`).join('');
+
+  /* ---------- badges ---------- */
+  const dlIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16"/></svg>';
+  $('#badgeGrid').innerHTML = BADGES.map((b,i)=>`
+    <article class="badge-card">
+      <div class="badge-img"><img src="badges/${b.slug}.png" alt="${b.name} badge" width="512" height="512" loading="lazy"></div>
+      <h3>${b.name}</h3>
+      <p class="badge-mean">${b.mean}</p>
+      <p class="badge-for">${b.for}</p>
+      <div class="badge-actions">
+        <button class="btn btn-primary btn-small" type="button" data-pick="${i}">Send this card</button>
+        <a class="icon-btn" href="badges/${b.slug}.png" download="${b.name}.png" aria-label="Download ${b.name} badge">${dlIcon}</a>
+      </div>
+    </article>`).join('');
+
+  /* ---------- card modal ---------- */
+  const modal=$('#cardModal'), form=$('#cardForm'), msg=$('#msg');
+  let current=null;
+  function updatePreview(){
+    $('#pvTo').textContent = $('#toName').value.trim() || 'colleague';
+    $('#pvFrom').textContent = $('#fromName').value.trim() || 'your name';
+    $('#pvMsg').textContent = msg.value.trim() || 'Your message will appear here.';
+    $('#msgCount').textContent = msg.value.length;
+  }
+  function openCard(i){
+    current = BADGES[i];
+    modal.classList.remove('sent');
+    $('#pvImg').src = `badges/${current.slug}.png`;
+    $('#pvImg').alt = `${current.name} badge`;
+    $('#pickedName').textContent = current.name + (current.mean ? ` (${current.mean.toLowerCase()})` : '');
+    $('#badgeField').value = current.name;
+    $('#dlBadge').href = `badges/${current.slug}.png`;
+    $('#dlBadge').setAttribute('download', current.name + '.png');
+    const st=$('#starters'); $$('.starter',st).forEach(b=>b.remove());
+    current.starters.forEach(t=>{ const b=document.createElement('button'); b.type='button'; b.className='starter'; b.textContent=t; b.onclick=()=>{msg.value=t;updatePreview();msg.focus();}; st.appendChild(b); });
+    $('#formError').textContent='';
+    $$('[aria-invalid]',form).forEach(f=>f.removeAttribute('aria-invalid'));
+    updatePreview();
+    modal.showModal();
+    setTimeout(()=>$('#toName').focus(),50);
+  }
+  document.addEventListener('click', e => { const p=e.target.closest('[data-pick]'); if(p) openCard(+p.dataset.pick); });
+  $('[data-close]',modal).onclick = () => modal.close();
+  modal.addEventListener('click', e => { if(e.target===modal) modal.close(); });
+  form.addEventListener('input', updatePreview);
+
+  const emailOk = v => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const fields=[['toName',v=>v.trim()],['toEmail',emailOk],['fromName',v=>v.trim()],['fromEmail',emailOk],['msg',v=>v.trim()]];
+    let first=null;
+    fields.forEach(([id,ok])=>{ const f=$('#'+id); const good=ok(f.value); f.toggleAttribute('aria-invalid',!good); if(!good){f.setAttribute('aria-invalid','true'); first=first||f;} });
+    if(first){ $('#formError').textContent='Please fill in all fields with valid work emails.'; first.focus(); return; }
+    $('#formError').textContent='';
+    const btn=$('#sendBtn'); btn.disabled=true; btn.firstChild.textContent='Sending… ';
+    // Note for dev: replace this timeout with the HubSpot submission
+    setTimeout(()=>{
+      btn.disabled=false; btn.firstChild.textContent='Send my card ';
+      $('#sentTo').textContent=$('#toName').value.trim();
+      modal.classList.add('sent');
+      const line=$$('#success .diya'); line.forEach(d=>d.classList.add('unlit'));
+      line.forEach((d,i)=>setTimeout(()=>d.classList.remove('unlit'),250+i*260));
+      sparks($('.e-card'));
+    },700);
+  });
+  $('#sendAnother').onclick = () => { ['toName','toEmail','msg'].forEach(id=>$('#'+id).value=''); modal.classList.remove('sent'); updatePreview(); $('#toName').focus(); };
+
+  function sparks(el){
+    if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const r=el.getBoundingClientRect(), host=el.parentElement, hr=host.getBoundingClientRect();
+    const cols=[C.gold,C.rani,C.marigold,C.teal,C.cream];
+    for(let i=0;i<46;i++){
+      const s=document.createElement('span'); s.className='spark';
+      const a=rnd(0,Math.PI*2), d=rnd(80,220);
+      s.style.left=(r.left-hr.left+r.width/2)+'px'; s.style.top=(r.top-hr.top+r.height*.3)+'px';
+      s.style.background=cols[i%cols.length];
+      s.style.setProperty('--dx',Math.cos(a)*d+'px'); s.style.setProperty('--dy',Math.sin(a)*d+'px');
+      host.appendChild(s); setTimeout(()=>s.remove(),1200);
+    }
+  }
+
+  /* ---------- tabs ---------- */
+  $$('[data-tabs]').forEach(box=>{
+    const tabs=$$('[role=tab]',box);
+    const select=t=>{ tabs.forEach(x=>{ const on=x===t; x.setAttribute('aria-selected',on); x.tabIndex=on?0:-1; $('#'+x.getAttribute('aria-controls')).hidden=!on; }); };
+    tabs.forEach((t,i)=>{
+      t.onclick=()=>select(t);
+      t.onkeydown=e=>{ let j=null; if(e.key==='ArrowRight') j=(i+1)%tabs.length; if(e.key==='ArrowLeft') j=(i-1+tabs.length)%tabs.length; if(j!==null){ e.preventDefault(); tabs[j].focus(); select(tabs[j]); } };
+    });
+  });
+
+  /* ---------- copy ---------- */
+  const toast=$('#toast'); let tt;
+  function showToast(t){ toast.textContent=t; toast.classList.add('show'); clearTimeout(tt); tt=setTimeout(()=>toast.classList.remove('show'),1800); }
+  document.addEventListener('click', async e=>{
+    const b=e.target.closest('[data-copy]'); if(!b) return;
+    const panel=b.closest('.panel');
+    const subj=$('[data-copy-subject]',panel), body=$('[data-copy-body]',panel);
+    let text = body.children.length && body.tagName!=='P' ? $$('p',body).map(p=>p.innerText.trim()).join('\n\n') : body.innerText.trim();
+    if(subj && b.dataset.copy==='letter' && !panel.id.endsWith('4')) text = 'Subject: '+subj.textContent.trim()+'\n\n'+text;
+    try{ await navigator.clipboard.writeText(text); }catch(_){ const ta=document.createElement('textarea'); ta.value=text; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); }
+    const old=b.lastChild.textContent; b.classList.add('done'); b.lastChild.textContent='Copied'; showToast('Copied. Ready to paste.');
+    setTimeout(()=>{ b.classList.remove('done'); b.lastChild.textContent=old; },1600);
+  });
+
+  /* ---------- folds ---------- */
+  const folds=$$('details.fold');
+  const tAll=$('[data-toggle-all]');
+  const syncAll=()=>{ if(tAll) tAll.textContent = folds.every(f=>f.open) ? 'Collapse all' : 'Expand all'; };
+  folds.forEach(f=>f.addEventListener('toggle',syncAll));
+  if(tAll) tAll.onclick=()=>{ const open=!folds.every(f=>f.open); folds.forEach(f=>f.open=open); syncAll(); };
+  const openFor=h=>{ const t=h && h.length>1 && document.getElementById(h.slice(1)); const f=t && $('details.fold',t); if(f) f.open=true; };
+  document.addEventListener('click',e=>{ const a=e.target.closest('a[href^="#"]'); if(a) openFor(a.getAttribute('href')); });
+  openFor(location.hash);
+  const openEverything=()=>$$('details').forEach(d=>d.open=true);
+  window.addEventListener('beforeprint',openEverything);
+  if(new URLSearchParams(location.search).has('print')) openEverything();
+
+  /* ---------- mobile menu ---------- */
+  const mt=$('#menuToggle'), mm=$('#mobileMenu');
+  mt.onclick=()=>{ const o=mm.classList.toggle('open'); mt.setAttribute('aria-expanded',o); };
+  $$('a',mm).forEach(a=>a.addEventListener('click',()=>{ mm.classList.remove('open'); mt.setAttribute('aria-expanded',false); }));
+})();
+</script>
+</body>
+</html>
